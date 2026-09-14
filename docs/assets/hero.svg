@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">AIFISHER 画布 · 2.0 起源</title>
+  <desc id="desc">把灵感、素材、模型和工作流放在同一张画布上。深色背景与绿色节点连线构成品牌展示图。</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#253735"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#204b41" stop-opacity=".7"/><stop offset="1" stop-color="#0d1417" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line"><stop stop-color="#526c63"/><stop offset="1" stop-color="#bce8ab"/></linearGradient>
+  </defs>
+  <rect width="1280" height="460" rx="24" fill="#0d1417"/>
+  <rect width="1280" height="460" rx="24" fill="url(#dots)"/>
+  <ellipse cx="980" cy="240" rx="370" ry="310" fill="url(#glow)"/>
+  <path d="M58 68H1222" stroke="#33423d"/>
+  <g font-family="Segoe UI,Arial,Microsoft YaHei,sans-serif">
+    <text x="60" y="45" fill="#bce8ab" font-size="13" letter-spacing="3">AIFISHER / CREATIVE CANVAS</text>
+    <text x="1220" y="45" text-anchor="end" fill="#a1afa8" font-size="13" letter-spacing="2">2.0 · ORIGIN</text>
+    <text x="56" y="180" fill="#f1f4e9" font-size="84" font-weight="700" letter-spacing="-3">AIFISHER</text>
+    <text x="61" y="242" fill="#f1f4e9" font-size="40" font-weight="600">画布 · 2.0 起源</text>
+    <text x="62" y="296" fill="#a8b9b1" font-size="20">让灵感连成作品。</text>
+    <rect x="60" y="345" width="397" height="40" rx="20" fill="#172621" stroke="#3f5649"/>
+    <text x="258" y="371" text-anchor="middle" fill="#c5d8c6" font-size="13" letter-spacing="1">IMAGE / VIDEO / AGENT / WORKFLOW</text>
+    <g fill="none" stroke="url(#line)" stroke-width="2">
+      <path d="M828 161C878 161 870 251 916 251"/>
+      <path d="M828 334C878 334 870 251 916 251"/>
+      <path d="M1106 251H1166"/>
+    </g>
+    <rect x="664" y="109" width="164" height="104" rx="12" fill="#14201e" stroke="#486254"/>
+    <rect x="664" y="282" width="164" height="104" rx="12" fill="#14201e" stroke="#486254"/>
+    <rect x="916" y="185" width="190" height="132" rx="14" fill="#bce8ab"/>
+    <text x="684" y="137" fill="#91ab9c" font-size="11" letter-spacing="2">01 / INPUT</text>
+    <text x="684" y="178" fill="#eef3e6" font-size="22">灵感与素材</text>
+    <text x="684" y="311" fill="#91ab9c" font-size="11" letter-spacing="2">02 / CONNECT</text>
+    <text x="684" y="352" fill="#eef3e6" font-size="22">模型与工作流</text>
+    <text x="938" y="217" fill="#3c6149" font-size="11" letter-spacing="2">03 / CREATE</text>
+    <text x="938" y="263" fill="#16271b" font-size="27" font-weight="600">创作，无界。</text>
+    <text x="938" y="294" fill="#3c6149" font-size="12">AIFISHER CANVAS</text>
+    <circle cx="1166" cy="251" r="6" fill="#bce8ab"/>
+    <text x="1220" y="427" text-anchor="end" fill="#789084" font-size="11" letter-spacing="2">YOUR IDEAS. CONNECTED.</text>
+  </g>
+</svg>

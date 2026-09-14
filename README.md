@@ -1,26 +1,84 @@
-# AIFISHER 画布 · 2.0 起源
+<p align="center">
+  <img src="docs/assets/hero.svg" width="100%" alt="AIFISHER 画布 · 2.0 起源 — 让灵感连成作品" />
+</p>
 
-**把灵感、素材、AI 模型和工作流放在同一张画布上。**
+<p align="center">
+  <strong>一张画布，连接图片、视频、音频、文字与 AI 工作流。</strong><br />
+  从灵感到素材，从分镜到生成，把创作过程留在同一个空间。
+</p>
 
-Windows 本地 AI 创作画布，支持图片、视频、音频和文字节点，连接本地 ComfyUI、RunningHub 与多家模型服务，使用 Agent 辅助规划和操作画布。
+<p align="center">
+  <a href="https://api.work-fisher.com/"><strong>AIFISHER API ↗</strong></a> ·
+  <a href="#创作案例">创作案例</a> ·
+  <a href="#开始使用">开始使用</a> ·
+  <a href="https://github.com/Work-Fisher/AIFISHER/releases">版本发布</a> ·
+  <a href="LICENSE">非商业许可</a>
+</p>
 
-> **源码公开，仅限非商业用途。** 禁止用本软件接单、完成商业制作、倒卖安装包、商业二开或收费托管。完整范围见 [LICENSE](LICENSE)。这不是 OSI 定义的开源许可。
+---
 
-## 源码与正式安装包
+> ### 连接 AIFISHER API，开始画布创作
+>
+> **[前往 AIFISHER API · 注册 / 登录并获取 API Key →](https://api.work-fisher.com/)**
+>
+> 在 API 站创建并复制自己的 Key，打开画布的 **设置 → 闭源服务 → AIFISHER API**，粘贴并保存，即可使用相应的在线模型服务。
+>
+> 画布账号与 API 站账号分别管理；本地画布无需登录即可使用。在线生成按服务商实际规则计费，软件不附带免费模型额度。
 
-- 本地保存项目、素材、参数和生成结果，无需登录官方账号。
-- 导入 ComfyUI API 工作流，在画布上配置参数与连接素材。
-- 使用自己的 API Key 调用模型；服务商费用独立于软件许可。
-- 使用 Agent 辅助创作；可导入自己的 SKILL，也包含允许公开的制作技能。
-- 不包含作者保留的闭源 SKILL或私有资产模板。
+## 创作案例
 
-源码保留正式版的 API 接入与可选账号功能，使用你自己的服务商 API Key。官方安装包保持现有功能，并继续接收官方签名自动更新。直接运行源码时通过 Git 拉取新代码，不能用安装器更新覆盖源码目录。
+以下选自随画布提供的风格与运镜素材库，展示可浏览的视觉方向；实际生成效果取决于模型、提示词与参考素材。
 
-闭源 SKILL 正文和私有模板不在源码公开范围内，正式安装包可能包含它们。风格预览图库与 MJ 码图素材由维护者确认拥有或已获公开再分发授权，随源码提供。
+<table>
+  <tr>
+    <td width="33%"><a href="public/creative-presets/style-643.webp"><img src="public/creative-presets/style-643.webp" width="100%" alt="动画风格：夏日机车少女" /></a></td>
+    <td width="33%"><a href="public/mj-styles/char6-preview.webp"><img src="public/mj-styles/char6-preview.webp" width="100%" alt="生活人像：自然光与日常氛围" /></a></td>
+    <td width="33%"><a href="public/mj-styles/char7-preview.webp"><img src="public/mj-styles/char7-preview.webp" width="100%" alt="科幻人像：太空头盔与电影光色" /></a></td>
+  </tr>
+  <tr>
+    <td><strong>01 / 动画风格</strong><br />鲜明配色 · 角色与场景</td>
+    <td><strong>02 / 生活人像</strong><br />自然光线 · 日常氛围</td>
+    <td><strong>03 / 科幻影像</strong><br />电影光色 · 人物特写</td>
+  </tr>
+</table>
 
-## 下载与更新
+### 让画面动起来
 
-正式安装包将发布在本仓库 Releases。安装后继续使用官方自动更新，无需每次重新从 GitHub 下载。发布版本以 Releases 与软件内提示为准，不把尚未验收的候选版当作正式发布。
+点击封面打开视频，在 GitHub 文件页播放或下载。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Work-Fisher/AIFISHER/blob/main/public/creative-presets/motion-692.mp4"><img src="public/creative-presets/motion-692.jpg" width="100%" alt="播放环绕上升运镜视频" /></a></td>
+    <td width="50%"><a href="https://github.com/Work-Fisher/AIFISHER/blob/main/public/creative-presets/motion-659.mp4"><img src="public/creative-presets/motion-659.jpg" width="100%" alt="播放希区柯克变焦运镜视频" /></a></td>
+  </tr>
+  <tr>
+    <td><strong>▶ 环绕上升</strong><br />人物、空间与镜头运动</td>
+    <td><strong>▶ 希区柯克变焦</strong><br />前后景变化与视觉张力</td>
+  </tr>
+</table>
+
+## 在同一张画布里完成
+
+| 连接素材 | 连接模型 | 连接创作流程 |
+| :--- | :--- | :--- |
+| 图片、视频、音频与文字节点 | AIFISHER API 与其他模型服务 | Agent 辅助规划与操作 |
+| 引用素材、参数调整与生成结果 | 本地 ComfyUI 与 RunningHub | API 工作流导入与参数配置 |
+| 项目与素材保存在本机 | 使用自己的服务商 API Key | 公开 SKILL 与自定义技能 |
+
+## 开始使用
+
+**使用安装版**：查看 [版本发布](https://github.com/Work-Fisher/AIFISHER/releases) 或 [官方下载网盘](https://pan.quark.cn/s/4902ac63461c)。GitHub 安装包会在验收完成后发布；已安装的正式版继续接收官方签名自动更新。
+
+**运行源码**：按下方步骤启动。源码保留 API 接入和可选账号功能，通过 Git 拉取后续更新；安装器不用于覆盖源码目录。
+
+> **源码公开，仅限非商业用途。** 禁止接单、商业制作、倒卖安装包、商业二开或收费托管。完整条款见 [LICENSE](LICENSE)。本项目不属于 OSI 定义的开源许可。
+
+<details>
+<summary><strong>公开源码包含什么？</strong></summary>
+
+画布、Agent、模型接入、本地 ComfyUI、RunningHub、可选账号及已获公开再分发授权的风格 / MJ 码图素材。作者保留的闭源 SKILL 正文、私有共享模板、个人账户与密钥不在公开范围内。正式安装包可能包含闭源内容，详见 [公开范围](SOURCE-SCOPE.md)。
+
+</details>
 
 ## 环境与运行
 
