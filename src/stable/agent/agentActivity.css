@@ -1,0 +1,124 @@
+.af-agent-activity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 0;
+  color: var(--af-text-secondary);
+  font-size: 14px;
+}
+.af-agent-activity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5px);
+  gap: 2px;
+}
+.af-agent-activity-grid i {
+  width: 5px;
+  height: 5px;
+  border-radius: 1px;
+  background: currentColor;
+  animation: af-agent-pulse 1.2s ease-in-out infinite;
+}
+@keyframes af-agent-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .af-agent-activity-grid i {
+    animation: none;
+  }
+}
+.af-agent-markdown {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.af-agent-markdown > :first-child {
+  margin-top: 0;
+}
+.af-agent-markdown > :last-child {
+  margin-bottom: 0;
+}
+.af-agent-markdown p {
+  margin: 0.65em 0;
+  white-space: pre-wrap;
+}
+.af-agent-markdown h1,
+.af-agent-markdown h2,
+.af-agent-markdown h3 {
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1.2em 0 0.5em;
+}
+.af-agent-markdown h1 {
+  font-size: 1.3em;
+}
+.af-agent-markdown h2 {
+  font-size: 1.15em;
+}
+.af-agent-markdown ul,
+.af-agent-markdown ol {
+  padding-left: 1.5em;
+  margin: 0.65em 0;
+}
+.af-agent-markdown ul {
+  list-style: disc;
+}
+.af-agent-markdown ol {
+  list-style: decimal;
+}
+.af-agent-markdown li {
+  margin: 0.25em 0;
+}
+.af-agent-markdown blockquote {
+  border-left: 2px solid var(--af-border-control);
+  padding-left: 12px;
+  margin: 0.75em 0;
+  color: var(--af-text-secondary);
+}
+.af-agent-markdown pre {
+  overflow-x: auto;
+  padding: 12px;
+  margin: 0.75em 0;
+  border-radius: 8px;
+  background: var(--af-input);
+  color: var(--af-text);
+  white-space: pre;
+}
+.af-agent-markdown code {
+  font-size: 0.9em;
+  background: var(--af-input);
+  color: var(--af-text);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.af-agent-markdown pre code {
+  padding: 0;
+}
+.af-agent-markdown a,
+.af-agent-node-link {
+  color: var(--af-info);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.af-agent-table {
+  overflow-x: auto;
+  margin: 0.75em 0;
+}
+.af-agent-table table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+.af-agent-table th,
+.af-agent-table td {
+  padding: 6px 10px;
+  border: 1px solid var(--af-border-control);
+  text-align: left;
+}
+.af-agent-markdown hr {
+  border-color: var(--af-border-control);
+  margin: 1em 0;
+}

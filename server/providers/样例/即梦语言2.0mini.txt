@@ -1,0 +1,79 @@
+即梦语言2.0mini "model": "doubao-seed-2-0-mini-260215"
+ARK_API_KEY = env.ARK_API_KEY
+
+request
+curl --location "https://ark.cn-beijing.volces.com/api/v3/responses" \
+    -H "Authorization: Bearer $ARK_API_KEY" \
+    -H "Content-Type: application/json" \
+    --data '{
+    "model": "doubao-seed-2-0-mini-260215",
+    "stream": false,
+    "messages": [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "detail": "xhigh",
+                        "url": "data:image/png;base64,<base64_image>"
+                    }
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "detail": "low",
+                        "url": "data:image/png;base64,<base64_image>"
+                    }
+                },
+                    "type": "video_url",
+                    "video_url": {
+                        "url": ""
+                    }
+                {
+                    "type": "text",
+                    "text": "提示词反推"
+                }
+            ]
+        }
+    ],
+    "max_output_tokens": 131072,
+    "temperature": 1,
+    "top_p": 0.7,
+    "reasoning": {
+        "effort": "low"
+    }
+}'
+
+
+response
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "在常规的十进制数学运算中，1+1的结果是2，这是最基础的数学常识。\n\n除此之外在不同场景下还有不同的延伸答案：\n1.  二进制运算中，1+1=10；\n2.  脑洞类的脑筋急转弯答案：比如两堆沙子合并后还是一堆沙子，一个男性加一个女性可以组成家庭，甚至可以拼成“王”“田”这类汉字。",
+        "reasoning_content": "用户现在问1+1等于几，首先正常数学里是2，不过也要考虑不同的情况？比如二进制里是10，还有一些脑筋急转弯的情况，不过先先说明常规的数学运算下是2，然后可以补充其他常见的情况，比如脑筋急转弯的答案，比如王、田之类的？不对，先先理清楚，首先最基础的十进制数学中1+1=2，这是最标准的答案，然后可以提一下在不同的场景下有不同的结果，比如二进制里1+1=10，还有比如在脑筋急转弯里，比如一堆沙加一堆沙还是一堆沙，或者比如一个男人加一个女人会组成家庭之类的，不过首先先明确常规的答案是2，然后再拓展一下其他情况。现在组织语言，先友好一点回答：\n\n在常规的十进制数学运算中，1+1的结果是2，这是最基础的数学常识。\n除此之外在不同的场景下还有不同的答案：\n1.  二进制运算中，1+1=10；\n2.  脑筋急转弯的脑洞答案：比如一堆沙子加一堆沙子，还是一堆沙子；一个爸爸加一个妈妈会组成一个家庭，生出孩子的话就更多啦；也可以拼成“王”“田”这类汉字。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1776071364,
+  "id": "021776071359945df6479734761ee7b3ca927c635915b31bdde4d",
+  "model": "doubao-seed-2-0-mini-260215",
+  "service_tier": "default",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 378,
+    "prompt_tokens": 54,
+    "total_tokens": 432,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 283
+    }
+  }
+}

@@ -1,0 +1,193 @@
+
+文生视频
+curl --request POST \
+  --url https://api-beijing.klingai.com/v1/videos/text2video \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "model_name": "kling-v3",
+    "prompt": "一只可爱的小兔子，戴着眼镜，坐在桌边，看报纸，桌上放着一杯卡布奇诺",
+    "negative_prompt": "",
+    "mode": "pro",
+    "sound": "on",
+    "duration": "5",
+    "aspect_ratio": "16:9",
+    "watermark_info": "false"
+  }'
+查询
+curl --request GET \
+  --url https://api-beijing.klingai.com/v1/videos/text2video/{task_id} \
+  --header 'Authorization: Bearer <token>'
+
+{
+  "code": 0, // 错误码；具体定义见错误码
+  "message": "string", // 错误信息
+  "request_id": "string", // 请求ID，系统生成，用于跟踪请求、排查问题
+  "data": {
+    "task_id": "string", // 任务ID，系统生成
+    "task_status": "string", // 任务状态，枚举值：submitted（已提交）、processing（处理中）、succeed（成功）、failed（失败）
+    "task_status_msg": "string", // 任务状态信息，当任务失败时展示失败原因（如触发平台的内容风控等）
+    "task_info": { // 任务创建时的参数信息
+      "external_task_id": "string" // 客户自定义任务ID
+    },
+    "task_result": {
+      "videos": [
+        {
+          "id": "string", // 生成的视频ID；全局唯一
+          "url": "string", // 生成视频的URL（请注意，为保障信息安全，生成的图片/视频会在30天后被清理，请及时转存）
+          "watermark_url": "string", // 含水印视频下载URL，防盗链格式
+          "duration": "string" // 视频总时长，单位s
+        }
+      ]
+    },
+    "watermark_info": {
+      "enabled": boolean
+    },
+    "final_unit_deduction": "string", // 任务最终扣减积分数值
+    "created_at": 1722769557708, // 任务创建时间，Unix时间戳、单位ms
+    "updated_at": 1722769557708 // 任务更新时间，Unix时间戳、单位ms
+  }
+}
+
+
+首帧 图生视频
+curl --location --request POST 'https://api-beijing.klingai.com/v1/videos/image2video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "model_name": "kling-v3",
+    "image": "<BASE64_DATA_IMG_1>",
+    "prompt": "镜头拉远，女生微笑",
+    "negative_prompt": "",
+    "mode": "pro",
+    "sound": "on",
+    "duration": "5",
+    "aspect_ratio": "16:9",
+    "watermark_info": "false"
+}'
+
+首尾帧 图生视频
+curl --location --request POST 'https://api-beijing.klingai.com/v1/videos/image2video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "model_name": "kling-v3",
+    "image": "<BASE64_DATA_IMG_1>",
+    "image_tail": "<BASE64_DATA_IMG_2>",
+    "prompt": "镜头拉远，女生微笑",
+    "negative_prompt": "",
+    "mode": "std",
+    "sound": "on",
+    "duration": "5",
+    "aspect_ratio": "16:9",
+    "watermark_info": "false"
+}'
+
+查询
+curl --request GET \
+  --url https://api-beijing.klingai.com/v1/videos/image2video/{task_id} \
+  --header 'Authorization: Bearer <token>'
+
+{
+  "code": 0, // 错误码；具体定义见错误码
+  "message": "string", // 错误信息
+  "request_id": "string", // 请求ID，系统生成，用于跟踪请求、排查问题
+  "data": {
+    "task_id": "string", // 任务ID，系统生成
+    "task_status": "string", // 任务状态，枚举值：submitted（已提交）、processing（处理中）、succeed（成功）、failed（失败）
+    "task_status_msg": "string", // 任务状态信息，当任务失败时展示失败原因（如触发平台的内容风控等）
+    "watermark_info": {
+      "enabled": boolean
+    },
+    "task_result": {
+      "videos": [
+        {
+          "id": "string", // 生成的视频ID；全局唯一
+          "url": "string", // 生成视频的URL（请注意，为保障信息安全，生成的图片/视频会在30天后被清理，请及时转存）
+          "watermark_url": "string", // 含水印视频下载URL，防盗链格式
+          "duration": "string" // 视频总时长，单位s
+        }
+      ]
+    },
+    "task_info": { // 任务创建时的参数信息
+      "external_task_id": "string" // 客户自定义任务ID
+    },
+    "final_unit_deduction": "string", // 任务最终扣减积分数值
+    "created_at": 1722769557708, // 任务创建时间，Unix时间戳、单位ms
+    "updated_at": 1722769557708 // 任务更新时间，Unix时间戳、单位ms
+  }
+}
+
+
+
+动作控制-
+curl --request POST \
+  --url https://api-beijing.klingai.com/v1/videos/motion-control \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json; charset=utf-8' \
+  --data-raw '{
+    "model_name": "kling-v3",
+    "image_url": "https://p2-kling.klingai.com/kcdn/cdn-kcdn112452/kling-qa-test/multi-3.ng.png",
+    "prompt": "女孩穿着灰色宽松T恤和牛仔短裤",
+    "video_url": "https://p2-kling.klingai.com/kcdn/cdn-kcdn112452/kling-qa-test/dance.mp4",
+    "keep_original_sound": "yes",
+    "character_orientation": "image",
+    "mode": "std",
+    "duration": "5",
+    "aspect_ratio": "16:9",
+    "watermark_info": "false"
+  }'
+
+查询
+curl --request GET \
+  --url https://api-beijing.klingai.com/v1/videos/motion-control/{task_id} \
+  --header 'Authorization: Bearer <token>'
+
+{
+  "code": 0, // 错误码；具体定义见错误码
+  "message": "string", // 错误信息
+  "request_id": "string", // 请求ID，系统生成，用于跟踪请求、排查问题
+  "data": {
+    "task_id": "string", // 任务ID，系统生成
+    "task_status": "string", // 任务状态，枚举值：submitted（已提交）、processing（处理中）、succeed（成功）、failed（失败）
+    "task_status_msg": "string", // 任务状态信息，当任务失败时展示失败原因（如触发平台的内容风控等）
+    "task_info": { //任务创建时的参数信息
+      "external_task_id": "string" //客户自定义任务ID
+    },
+    "task_result": {
+      "videos": [
+        {
+          "id": "string", // 生成的视频ID；全局唯一
+          "url": "string", // 生成视频的URL，防盗链格式（请注意，为保障信息安全，生成的图片/视频会在30天后被清理，请及时转存）
+          "watermark_url": "string", // 含水印视频下载URL，防盗链格式
+          "duration": "string" //视频总时长，单位s
+        }
+      ]
+    },
+    "watermark_info": {
+      "enabled": boolean
+    },
+    "final_unit_deduction": "string", // 任务最终扣减积分数值
+    "created_at": 1722769557708, // 任务创建时间，Unix时间戳、单位ms
+    "updated_at": 1722769557708 //任务更新时间，Unix时间戳、单位ms
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

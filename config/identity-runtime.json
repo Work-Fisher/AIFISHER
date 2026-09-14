@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 3,
+  "issuer": "https://identity.work-fisher.com",
+  "audience": "aifisher-desktop",
+  "sessionStatusUrl": "https://identity.work-fisher.com/v1/session-validations",
+  "publicKey": {
+    "path": "security/identity-access-token-public.pem",
+    "spkiSha256": "47b9004da807afe3642eff11c52c4ce3bf794ac30130e8e22c7ddaf787978282"
+  }
+}

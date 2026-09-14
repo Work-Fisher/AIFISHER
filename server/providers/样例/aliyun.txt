@@ -1,0 +1,178 @@
+$ALIYUN_API_KEY = ALIYUN_API_KEY
+
+参数取值范围
+"resolution": ["720P", "1080P"]
+"ratio": ["1:1","3:4","4:3","9:16","16:9"]
+"duration": [3, 15]
+
+必填参数
+"watermark": false
+
+happyhorse 文生视频
+curl --location 'https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis' \
+    -H 'X-DashScope-Async: enable' \
+    -H "Authorization: Bearer $ALIYUN_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "model": "happyhorse-1.0-t2v",
+    "input": {
+        "prompt": "一座由硬纸板和瓶盖搭建的微型城市，在夜晚焕发出生机。一列硬纸板火车缓缓驶过，小灯点缀其间，照亮前路。"
+    },
+    "parameters": {
+        "watermark": false,
+        "resolution": "720P",
+        "ratio": "16:9",
+        "duration": 5
+    }
+}'
+
+happyhorse 首帧视频
+curl --location 'https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis' \
+    -H 'X-DashScope-Async: enable' \
+    -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "model": "happyhorse-1.0-i2v",
+    "input": {
+        "prompt": "一只猫在草地上奔跑",
+        "media": [
+            {
+                "type": "first_frame",
+                "url": "https://cdn.translate.alibaba.com/r/wanx-demo-1.png"
+            }
+        ]
+    },
+    "parameters": {
+        "watermark": false,
+        "resolution": "720P",
+        "ratio": "16:9",
+        "duration": 5
+    }
+}'
+
+参考视频
+curl --location 'https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis' \
+    -H 'X-DashScope-Async: enable' \
+    -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "model": "happyhorse-1.0-r2v",
+    "input": {
+        "prompt": "身着红色旗袍的女性character1，镜头先以侧面中景勾勒旗袍修身剪裁与S型曲线，随即切换至低角度仰拍，捕捉她轻抬玉手展开折扇character2时流苏耳坠character3随头部转动轻盈摆动的细节，最后推近至面部特写，定格在她指尖轻点扇骨、眼波流转间的含蓄风情，多视角全方位展现东方韵味。",
+        "media": [
+            {
+                "type": "reference_image",
+                "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20260424/mvzfud/hh-v2v-girl.jpg"
+            },
+            {
+                "type": "reference_image",
+                "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20260424/fvuihk/hh-v2v2-folding-fan.jpg"
+            },
+            {
+                "type": "reference_image",
+                "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20260424/imerii/hh-v2v-earrings.jpg"
+            }
+        ]
+    },
+    "parameters": {
+        "watermark": false,
+        "resolution": "720P",
+        "ratio": "16:9",
+        "duration": 5
+    }
+}'
+
+视频编辑
+curl --location 'https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis' \
+    -H 'X-DashScope-Async: enable' \
+    -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "model": "happyhorse-1.0-video-edit",
+    "input": {
+        "prompt": "让视频中的马头人身角色穿上图片中的条纹毛衣",
+        "media": [
+            {
+                "type": "video",
+                "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20260409/dozxak/Wan_Video_Edit_33_1.mp4"
+            },
+            {
+                "type": "reference_image",
+                "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20260415/hynnff/wan-video-edit-clothes.webp"
+            }
+        ]
+    },
+    "parameters": {
+        "watermark": false,
+        "resolution": "720P",
+        "ratio": "16:9",
+        "duration": 5
+    }
+}'
+
+
+
+
+
+
+成功响应
+{
+    "output": {
+        "task_status": "PENDING",
+        "task_id": "0385dc79-5ff8-4d82-bcb6-xxxxxx"
+    },
+    "request_id": "4909100c-7b5a-9f92-bfe5-xxxxxx"
+}
+状态列表如下
+PENDING：任务排队中
+RUNNING：任务处理中
+SUCCEEDED：任务执行成功
+FAILED：任务执行失败
+CANCELED：任务已取消
+UNKNOWN：任务不存在或状态未知
+
+只有成功和失败输出记录日志
+
+
+失败响应
+{
+    "code": "InvalidApiKey",
+    "message": "No API-key provided.",
+    "request_id": "7438d53d-6eb8-4596-8835-xxxxxx"
+}
+
+任务查询
+curl -X GET https://dashscope.aliyuncs.com/api/v1/tasks/{task_id} \
+--header "Authorization: Bearer $DASHSCOPE_API_KEY"
+
+成功返回
+{
+    "request_id": "8ae698ba-df2d-966c-abcf-xxxxxx",
+    "output": {
+        "task_id": "e56d806f-76f9-4037-aefa-xxxxxx",
+        "task_status": "SUCCEEDED",
+        "submit_time": "2026-04-20 19:33:50.425",
+        "scheduled_time": "2026-04-20 19:33:50.463",
+        "end_time": "2026-04-20 19:35:34.216",
+        "orig_prompt": "一只猫在草地上奔跑",
+        "video_url": "https://dashscope-result.oss-cn-beijing.aliyuncs.com/xxx.mp4?Expires=xxx"
+    },
+    "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 720
+    }
+}
+
+失败返回
+{
+    "request_id": "e5d70b02-ebd3-98ce-9fe8-759d7d7b107d",
+    "output": {
+        "task_id": "86ecf553-d340-4e21-af6e-a0c6a421c010",
+        "task_status": "FAILED",
+        "code": "InvalidParameter",
+        "message": "The parameter is invalid."
+    }
+}

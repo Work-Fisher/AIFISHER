@@ -1,0 +1,275 @@
+{
+  "216": {
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载视频 VAE"
+    }
+  },
+  "217": {
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载音频 VAE"
+    }
+  },
+  "227": {
+    "inputs": {
+      "unet_name": "minimax_h3_fl2va_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "加载 MiniMax H3 INT8 模型"
+    }
+  },
+  "234": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "AIFISHER 提示词"
+    }
+  },
+  "235": {
+    "inputs": {
+      "aspect_ratio": "16:9 (Widescreen)",
+      "megapixels": 0.4,
+      "multiple": 32
+    },
+    "class_type": "ResolutionSelector",
+    "_meta": {
+      "title": "画面尺寸"
+    }
+  },
+  "236": {
+    "inputs": {
+      "value": 8
+    },
+    "class_type": "PrimitiveFloat",
+    "_meta": {
+      "title": "时长（秒）"
+    }
+  },
+  "238": {
+    "inputs": {
+      "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "minimax",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "加载 Qwen3-VL 文本编码器"
+    }
+  },
+  "269": {
+    "inputs": {
+      "reserved": 1,
+      "mode": "manual",
+      "seed": 1069018683421827,
+      "auto_max_reserved": 0,
+      "clean_gpu_before": true,
+      "anything": [
+        "227",
+        0
+      ]
+    },
+    "class_type": "ReservedVRAMSetter",
+    "_meta": {
+      "title": "预留显存"
+    }
+  },
+  "291": {
+    "inputs": {
+      "model": [
+        "269",
+        0
+      ]
+    },
+    "class_type": "MiniMaxH3MemoryEfficientSageAttentionPatch",
+    "_meta": {
+      "title": "MiniMax H3 显存优化注意力"
+    }
+  },
+  "296": {
+    "inputs": {
+      "av_latent": [
+        "302",
+        0
+      ],
+      "video_vae": [
+        "216",
+        0
+      ],
+      "audio_vae": [
+        "217",
+        0
+      ]
+    },
+    "class_type": "MiniMaxH3AVDecodeT8",
+    "_meta": {
+      "title": "MiniMax H3 音视频解码"
+    }
+  },
+  "302": {
+    "inputs": {
+      "noise": [
+        "306",
+        0
+      ],
+      "guider": [
+        "305",
+        0
+      ],
+      "sampler": [
+        "304",
+        1
+      ],
+      "sigmas": [
+        "304",
+        2
+      ],
+      "latent_image": [
+        "307",
+        1
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "MiniMax H3 采样"
+    }
+  },
+  "303": {
+    "inputs": {
+      "images": [
+        "296",
+        0
+      ],
+      "frame_rate": 24,
+      "loop_count": 0,
+      "filename_prefix": "AIFISHER/MiniMaxH3",
+      "format": "video/h264-mp4",
+      "pingpong": false,
+      "save_output": true,
+      "audio": [
+        "296",
+        1
+      ],
+      "pix_fmt": "yuv420p",
+      "crf": 19,
+      "save_metadata": true,
+      "trim_to_audio": false
+    },
+    "class_type": "VHS_VideoCombine",
+    "_meta": {
+      "title": "AIFISHER 视频输出"
+    }
+  },
+  "304": {
+    "inputs": {
+      "model": [
+        "291",
+        0
+      ],
+      "av_latent": [
+        "307",
+        1
+      ],
+      "video_steps": 10,
+      "audio_steps": 10,
+      "shift_video": 12,
+      "shift_audio": 3
+    },
+    "class_type": "MiniMaxH3MultiRateSamplerEXPT8",
+    "_meta": {
+      "title": "MiniMax H3 双速率采样器"
+    }
+  },
+  "305": {
+    "inputs": {
+      "model": [
+        "304",
+        0
+      ],
+      "conditioning": [
+        "307",
+        0
+      ]
+    },
+    "class_type": "BasicGuider",
+    "_meta": {
+      "title": "基础引导"
+    }
+  },
+  "306": {
+    "inputs": {
+      "noise_seed": 0
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "随机种子"
+    }
+  },
+  "307": {
+    "inputs": {
+      "clip": [
+        "238",
+        0
+      ],
+      "video_vae": [
+        "216",
+        0
+      ],
+      "audio_vae": [
+        "217",
+        0
+      ],
+      "prompt": [
+        "234",
+        0
+      ],
+      "width": [
+        "235",
+        0
+      ],
+      "height": [
+        "235",
+        1
+      ],
+      "length": [
+        "308",
+        1
+      ],
+      "task_type": "T2VA",
+      "audio_mode": "native",
+      "audio_denoise_strength": 1,
+      "add_source_as_reference": false,
+      "prompt_primary_audio_ordinal": 0,
+      "strict_prompt_tags": true,
+      "ref_image_size": "match",
+      "reference_video_policy": "official_2_to_15s"
+    },
+    "class_type": "MiniMaxH3AudioConditioningT8",
+    "_meta": {
+      "title": "MiniMax H3 条件构建"
+    }
+  },
+  "308": {
+    "inputs": {
+      "expression": "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17",
+      "values.a": [
+        "236",
+        0
+      ]
+    },
+    "class_type": "ComfyMathExpression",
+    "_meta": {
+      "title": "秒数转帧数（24 FPS）"
+    }
+  }
+}

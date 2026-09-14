@@ -1,0 +1,289 @@
+.af-creative-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0;
+  font-size: 12px;
+  color: var(--af-text);
+}
+.af-creative-tools button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--af-border);
+  border-radius: 6px;
+  background: var(--af-surface-raised);
+  color: inherit;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.af-creative-tools .af-creative-tag {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  border-color: var(--af-border-control);
+}
+.af-creative-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483600;
+  background: var(--af-overlay);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: Inter, 'Microsoft YaHei UI', sans-serif;
+  color: var(--af-text);
+}
+.af-creative-panel {
+  width: min(760px, 100%);
+  height: min(560px, calc(100dvh - 48px));
+  background: var(--af-surface-raised);
+  border: 1px solid var(--af-border);
+  border-radius: 16px;
+  box-shadow: 0 24px 90px #000a;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 14px;
+}
+.af-creative-panel button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.af-creative-panel button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.af-creative-panel button:focus-visible,
+.af-creative-panel input:focus-visible,
+.af-creative-panel textarea:focus-visible {
+  outline: 2px solid var(--af-focus);
+  outline-offset: 2px;
+}
+ .af-creative-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  flex: none;
+}
+.af-creative-close { grid-column: 2; grid-row: 1; }
+.af-creative-header .af-creative-close { padding: 8px; }
+.af-creative-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.af-creative-panel button[aria-pressed='true'] {
+  background: var(--af-hover);
+  color: var(--af-text);
+}
+.af-creative-header input {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  background: var(--af-hover);
+  border: 1px solid var(--af-border);
+  border-radius: 20px;
+  padding: 9px 14px;
+  color: var(--af-text);
+  font: inherit;
+}
+.af-creative-categories {
+  padding: 0 20px 14px;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  flex: none;
+  color: var(--af-text-secondary);
+}
+.af-creative-grid {
+  padding: 2px 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: max-content;
+  gap: 14px;
+  overflow: auto;
+  min-height: 0;
+  align-content: start;
+  scrollbar-gutter: stable;
+  flex: 1;
+}
+.af-creative-grid::-webkit-scrollbar {
+  width: 7px;
+}
+.af-creative-grid::-webkit-scrollbar-thumb {
+  background: var(--af-hover);
+  border-radius: 8px;
+}
+.af-creative-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--af-surface-raised);
+  border: 2px solid transparent;
+  min-width: 0;
+}
+.af-creative-card.is-selected {
+  border-color: var(--af-border-control);
+}
+.af-creative-card .af-creative-choose {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  padding: 0;
+  text-align: left;
+  border-radius: 0;
+}
+.af-creative-card img,
+.af-creative-card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.af-creative-card .af-creative-title {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 28px 10px 10px;
+  background: linear-gradient(transparent, #000c);
+  color: var(--af-media-text);
+  text-align: center;
+  font-size: 14px;
+}
+.af-creative-card .af-creative-star {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  background: #0008;
+  color: var(--af-media-text);
+  border-radius: 50%;
+  padding: 7px;
+}
+.af-creative-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-top: 1px solid var(--af-border);
+  color: var(--af-text-secondary);
+  font-size: 12px;
+  gap: 12px;
+  flex: none;
+}
+.af-creative-empty {
+  grid-column: 1/-1;
+  padding: 60px 12px;
+  text-align: center;
+  color: var(--af-text-secondary);
+}
+.af-creative-custom {
+  overflow: auto;
+  min-height: 0;
+  padding: 0 20px 20px;
+  display: grid;
+  gap: 14px;
+}
+.af-creative-custom label {
+  display: grid;
+  gap: 8px;
+  color: var(--af-text-secondary);
+}
+.af-creative-custom input,
+.af-creative-custom textarea,
+.af-creative-custom select {
+  background: var(--af-input);
+  border: 1px solid var(--af-border);
+  border-radius: 8px;
+  color: var(--af-text);
+  padding: 10px;
+  font: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.af-creative-custom textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+.af-creative-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.af-creative-actions button {
+  background: var(--af-hover);
+}
+.af-creative-actions .primary {
+  background: var(--af-primary);
+  color: var(--af-on-primary);
+}
+@media (max-width: 900px) {
+  .af-creative-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .af-creative-backdrop {
+    padding: 12px;
+  }
+  .af-creative-panel {
+    height: calc(100dvh - 24px);
+  }
+  .af-creative-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    padding: 2px 12px 12px;
+  }
+  .af-creative-header {
+    padding: 12px;
+  }
+  .af-creative-header input {
+    width: 100%;
+  }
+  .af-creative-categories {
+    padding: 0 12px 12px;
+  }
+}
+
+.af-creative-backdrop[popover] {
+  margin: 0;
+  border: 0;
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  box-sizing: border-box;
+}
+.af-creative-backdrop::backdrop {
+  background: transparent;
+}
+
+/* Node libraries leave the artwork visible; the existing controls stay in place. */
+.af-creative-backdrop.af-node-side-backdrop {
+  background: transparent;
+  padding: 0;
+}
+.af-node-side-backdrop > :is(.af-creative-panel, .af-mj-panel) {
+  position: absolute;
+  box-sizing: border-box;
+  box-shadow: 0 12px 36px #0008;
+  border-radius: 12px;
+}
+.af-node-side-backdrop .af-creative-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.af-creative-backdrop.af-node-side-backdrop { pointer-events: none; }
+.af-node-side-backdrop > :is(.af-creative-panel, .af-mj-panel) { pointer-events: auto; }

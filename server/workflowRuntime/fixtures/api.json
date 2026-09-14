@@ -1,0 +1,12 @@
+{
+  "1": {
+    "inputs": { "text": "一条测试提示词" },
+    "class_type": "TextInput",
+    "_meta": { "title": "输入文本" }
+  },
+  "2": {
+    "inputs": { "text": ["1", 0] },
+    "class_type": "TextOutput",
+    "_meta": { "title": "输出文本" }
+  }
+}

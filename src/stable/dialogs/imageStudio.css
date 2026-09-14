@@ -1,0 +1,117 @@
+.af-image-studio {
+  position: fixed;
+  inset: 24px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background: var(--af-input);
+  border: 1px solid var(--af-border);
+  border-radius: 18px;
+  color: var(--af-text);
+  box-shadow: 0 0 0 100vmax #000b;
+  font-size: 14px;
+}
+.af-image-studio header,
+.af-image-studio nav,
+.af-image-studio footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.af-image-studio header > span,
+.af-image-studio footer > span {
+  flex: 1;
+  color: var(--af-text-secondary);
+  font-size: 12px;
+}
+.af-image-studio button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--af-surface-raised);
+  border: 1px solid var(--af-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.af-image-studio button:not(.primary):not(:disabled):hover {
+  background: var(--af-hover);
+}
+.af-image-studio button:focus-visible {
+  outline: 2px solid var(--af-focus);
+  outline-offset: 2px;
+}
+.af-image-studio button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.af-image-studio .primary {
+  background: var(--af-primary);
+  color: var(--af-on-primary);
+}
+.af-image-studio button.primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--af-primary) 90%, var(--af-on-primary));
+  color: var(--af-on-primary);
+}
+.af-image-studio main {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--af-input);
+  border-radius: 10px;
+}
+.af-image-studio main > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.af-image-studio details {
+  max-height: 160px;
+  overflow: auto;
+  flex-shrink: 0;
+}
+.af-image-studio summary {
+  cursor: pointer;
+  color: var(--af-text-secondary);
+}
+.af-image-sources {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  overflow: auto;
+}
+.af-image-sources button {
+  flex-direction: column;
+  max-width: 100px;
+  flex-shrink: 0;
+  font-size: 11px;
+}
+.af-image-sources img {
+  width: 64px;
+  height: 48px;
+  object-fit: contain;
+}
+.af-image-sources [aria-pressed='true'] {
+  border-color: var(--af-focus);
+}
+@media (max-width: 600px) {
+  .af-image-studio {
+    inset: 8px;
+    padding: 12px;
+    gap: 10px;
+  }
+  .af-image-studio header > span {
+    display: none;
+  }
+  .af-image-studio header > strong {
+    flex: 1;
+  }
+}

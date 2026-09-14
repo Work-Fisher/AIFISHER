@@ -1,0 +1,17 @@
+/* Keep canvas side panels above the bottom navigation, including after a resize. */
+.fisher-canvas-anchored-panel {
+  --panel-height: min(var(--panel-preferred-height, 560px), calc(100dvh - 104px));
+  position: fixed;
+  left: 80px;
+  top: clamp(16px, var(--panel-anchor-y, 100px), calc(100dvh - var(--panel-height) - 80px));
+  z-index: 40;
+  width: min(var(--panel-preferred-width, 760px), calc(100vw - 112px));
+  height: var(--panel-height);
+  max-height: var(--panel-height);
+}
+@media (max-width: 680px) {
+  .fisher-canvas-anchored-panel {
+    left: 72px;
+    width: calc(100vw - 84px);
+  }
+}

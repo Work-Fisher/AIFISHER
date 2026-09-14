@@ -1,0 +1,83 @@
+$GROK_API_KEY = GROK_API_KEY
+
+参数取值范围
+"resolution": ["480p", "720P"]
+"aspect_ratio": ["1:1","2:3","3:2","3:4","4:3","9:16","16:9"]
+"duration": [1, 15]
+
+必填参数
+"watermark": false
+
+
+文生视频
+curl -X POST https://api.x.ai/v1/videos/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $XAI_API_KEY" \
+  -d '{
+    "model": "grok-imagine-video",
+    "prompt": "A glowing crystal-powered rocket launching from the red dunes of Mars, ancient alien ruins lighting up in the background as it soars into a sky full of unfamiliar constellations",
+    "duration": 10,
+    "aspect_ratio": "16:9",
+    "resolution": "720p"
+  }'
+
+响应
+{"request_id": "d97415a1-5796-b7ec-379f-4e6819e08fdf"}
+
+查询
+curl -X GET "https://api.x.ai/v1/videos/{request_id}" \
+  -H "Authorization: Bearer $XAI_API_KEY"
+
+
+响应结果
+{
+  "status": "done",
+  "video": {
+    "url": "https://vidgen.x.ai/.../video.mp4",
+    "duration": 8,
+    "respect_moderation": true
+  },
+  "model": "grok-imagine-video"
+}
+
+
+首帧视频
+curl -X POST https://api.x.ai/v1/videos/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $XAI_API_KEY" \
+  -d '{
+    "model": "grok-imagine-video",
+    "prompt": "Generate a slow and serene time-lapse",
+    "image": {"url": "https://docs.x.ai/assets/api-examples/video/milkyway-still.png"},
+    "duration": 12
+  }'
+
+
+  视频编辑
+  curl -X POST https://api.x.ai/v1/videos/edits \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $XAI_API_KEY" \
+  -d '{
+    "model": "grok-imagine-video",
+    "prompt": "Give the woman a silver necklace",
+    "video_url": "https://data.x.ai/docs/video-generation/portrait-wave.mp4"
+  }'
+
+
+图生视频
+curl -X POST https://api.x.ai/v1/videos/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $XAI_API_KEY" \
+  -d '{
+    "model": "grok-imagine-video",
+    "prompt": "slow zoom in on the white fashion runway stage. then, the model from <IMAGE_1> walks in from the back of the shot from the white opening, and gracefully walk out onto the front of the white stage platform. they wear the shirt from <IMAGE_2> and black flared jeans. they look dramatically at the camera. high quality slow motion shot. fun, playful. skin pores. highly detailed faces. perfect shot. they reach the end of the runway and look at the camera as the camera slowly zooms. subtle smile.",
+    "reference_images": [
+      {"url": "<IMAGE_URL_1>"},
+      {"url": "<IMAGE_URL_2>"},
+      {"url": "<IMAGE_URL_3>"}
+    ],
+    "duration": 10,
+    "aspect_ratio": "16:9",
+    "resolution": "720p"
+  }'
+

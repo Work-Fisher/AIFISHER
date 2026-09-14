@@ -1,0 +1,10 @@
+{
+  "name": "@aifisher/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "AIFISHER single-window Electron shell (ADR-0035).",
+  "main": "src/main.mjs",
+  "devDependencies": {
+    "electron": "44.3.0"
+  }
+}

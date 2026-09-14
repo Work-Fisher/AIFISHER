@@ -1,0 +1,17 @@
+node_modules/
+runtime/
+bin/
+dist/
+.desktop-dev/
+output/
+.env
+.env.*
+!.env.example
+data/
+library/
+private/
+logs/
+*.log
+*.db*
+apps/desktop/launcher/dist/
+*.tsbuildinfo

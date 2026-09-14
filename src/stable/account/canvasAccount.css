@@ -1,0 +1,42 @@
+.aifisher-feedback-dialog.aifisher-account-dialog{width:min(440px,calc(100vw - 32px))}
+.aifisher-account-dialog .aifisher-feedback-head{padding:18px 20px;gap:12px}
+.aifisher-account-dialog .aifisher-feedback-heading h2{font-size:16px;font-weight:600}
+.aifisher-account-dialog .aifisher-feedback-close{flex:none;width:28px;height:28px;border-color:transparent;background:transparent}
+.aifisher-feedback-body.aifisher-account-body{padding:20px;font-size:12px;line-height:1.65}
+.aifisher-account-body p{margin:0;color:var(--af-text-muted);font-size:12px;line-height:1.65}
+.aifisher-account-profile{display:flex;align-items:center;gap:12px;min-width:0}
+.aifisher-account-avatar{width:42px;height:42px;flex:none;display:grid;place-items:center;border:1px solid var(--af-border);border-radius:50%;background:var(--af-surface-raised);color:var(--af-text);font-size:18px;font-weight:600}
+.aifisher-account-identity{display:grid;gap:3px;min-width:0}
+.aifisher-account-identity strong{overflow-wrap:anywhere;font-size:16px;font-weight:600;line-height:1.4}
+.aifisher-account-identity span{font-size:11px;color:var(--af-text-muted)}
+.aifisher-account-details{display:grid;gap:6px;margin:18px 0}
+.aifisher-account-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--af-border);padding-top:14px}
+.aifisher-account-footer>span{font-size:11px;color:var(--af-text-muted)}
+.aifisher-account-footer .aifisher-account-logout{min-height:30px;padding:0 12px;font-weight:500;background:transparent;flex:none}
+.aifisher-account-logout:hover{background:var(--af-surface-raised)}
+.aifisher-account-tabs{display:flex;gap:4px;margin-bottom:18px;padding:3px;background:var(--af-input);border-radius:8px}
+.aifisher-account-tabs .aifisher-feedback-button{flex:1;min-height:30px;padding:0 8px;background:transparent;border-color:transparent;font-weight:500;color:var(--af-text-muted)}
+.aifisher-account-tabs .aifisher-feedback-button[aria-pressed=true]{background:var(--af-surface-raised);color:var(--af-text)}
+.aifisher-account-body form{display:grid;gap:12px}
+.aifisher-account-body form>button[type=submit]{width:100%;margin-top:4px;min-height:38px}
+.aifisher-account-body .aifisher-account-link{justify-self:end;padding:0;border:0;background:transparent;color:var(--af-text-muted);font:inherit;font-size:11px;cursor:pointer}
+.aifisher-account-body .aifisher-account-link:hover{color:var(--af-text);text-decoration:underline}
+.aifisher-account-body .aifisher-account-link:focus-visible{outline:2px solid var(--af-border-control);outline-offset:4px}
+.aifisher-account-body .aifisher-account-recovery-note{margin:12px 0 18px}
+.aifisher-account-body .aifisher-account-legal{font-size:11px}
+.aifisher-account-body .aifisher-account-local-note{text-align:center}
+.aifisher-account-body .aifisher-feedback-field{margin:0;gap:5px}
+.aifisher-account-body form+p{margin-top:14px;font-size:11px}
+.aifisher-account-body .aifisher-feedback-status:empty{display:none}
+.aifisher-account-body .aifisher-feedback-status:not(:empty){margin-top:10px}
+.aifisher-account-intro{position:fixed;right:20px;bottom:20px;z-index:2147483500;box-sizing:border-box;width:min(360px,calc(100vw - 40px));padding:20px;border:1px solid var(--af-border);border-radius:12px;background:var(--af-surface);color:var(--af-text);box-shadow:var(--af-shadow);font:12px/1.65 Inter,"Microsoft YaHei UI",system-ui,sans-serif}
+.aifisher-account-intro strong{display:block;padding-right:20px;font-size:14px;font-weight:600}
+.aifisher-account-intro p{margin:9px 0 0;color:var(--af-text-secondary)}
+.aifisher-account-intro .aifisher-account-intro-note{font-size:11px;color:var(--af-text-muted)}
+.aifisher-account-intro button{cursor:pointer;color:inherit;font:inherit}
+.aifisher-account-intro-close{position:absolute;right:10px;top:10px;width:26px;height:26px;border:0;border-radius:5px;background:transparent;font-size:18px!important}
+.aifisher-account-intro-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.aifisher-account-intro-actions button{padding:6px 10px;background:transparent;border:1px solid var(--af-border-control);border-radius:6px}
+.aifisher-account-intro-actions button[data-primary=true]{background:var(--af-primary);color:var(--af-on-primary)}
+.aifisher-account-intro-actions .aifisher-account-intro-opt-out{margin-right:auto;border-color:transparent;padding-left:0;padding-right:0;color:var(--af-text-muted)}
+.aifisher-account-intro button:focus-visible{outline:2px solid var(--af-border-control);outline-offset:2px}

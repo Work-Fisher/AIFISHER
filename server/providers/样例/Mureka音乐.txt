@@ -1,0 +1,53 @@
+支持格式 mp3, m4a
+参考音频 时长范围为[1,30]秒
+
+
+  此请求将生成一个音乐创作任务。您应该会收到类似以下内容的响应：
+{
+  "id": "1436211",
+  "created_at": 1677610602,
+  "model": "mureka-6",
+  "status": "preparing",
+  "trace_id": "1e94aba5a2de4cc4bff54a2813c8d36c"
+}
+
+当请求失败时，将返回400到600间的HTTP状态码，以及类似以下内容的错误消息：
+{
+  "error": {
+    "message": "Invalid Authentication"
+  },
+  "trace_id": "1e94aba5a2de4cc4bff54a2813c8d36c"
+}
+
+
+歌词生成音乐
+curl https://api.mureka.cn/v1/song/generate \
+  -H "Authorization: Bearer $MUREKA_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "lyrics": "[主歌]\n在暴风雨的夜晚，我独自徘徊\n被雨淋湿，感觉像是被抛弃\n你的回忆，在我眼前闪现\n希望这一刻，能找到一丝幸福",
+    "model": "auto",
+    "prompt": "r&b, slow, passionate, male vocal",
+    "n": 1
+  }'
+
+生成纯音乐
+curl https://api.mureka.cn/v1/instrumental/generate \
+  -H "Authorization: Bearer $MUREKA_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "auto",
+    "prompt": "r&b, slow, passionate, male vocal",
+    "n": 1
+  }'
+
+
+
+查询任务
+curl https://api.mureka.cn/v1/song/query/435134 \
+  -H "Authorization: Bearer $MUREKA_API_KEY"
+
+
+
+
+

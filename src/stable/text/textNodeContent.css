@@ -1,0 +1,231 @@
+.af-text-node-content {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  color: var(--af-text);
+  cursor: grab;
+}
+.af-text-inline-slot,
+.af-text-editor-host,
+.af-text-editor-event-boundary {
+  position: relative;
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+}
+.af-text-inline-slot[hidden] {
+  display: none;
+}
+.af-text-primary-tools {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 76%;
+  padding: 2px;
+}
+.af-text-header-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 7px;
+  border: 1px solid var(--af-border-control);
+  border-radius: 6px;
+  color: var(--af-text);
+  background: var(--af-surface);
+  font-size: 11px;
+  line-height: 1.3;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.af-text-header-button:hover:not(:disabled) {
+  background: var(--af-hover);
+}
+.af-text-header-button:focus-visible {
+  outline: 2px solid var(--af-focus);
+  outline-offset: 2px;
+}
+.af-text-header-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.af-text-header-button.af-text-primary {
+  background: var(--af-primary);
+  color: var(--af-on-primary);
+}
+.af-text-import-spinner {
+  animation: af-text-import-spin 0.8s linear infinite;
+}
+@keyframes af-text-import-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.af-text-node-placeholder,
+.af-text-start-editing {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  color: var(--af-text-muted);
+  font-size: 12px;
+}
+.af-text-start-editing {
+  border: 0;
+  background: none;
+  text-align: left;
+  padding: 2px;
+  cursor: text;
+}
+.af-text-start-editing:focus-visible {
+  outline: 2px solid var(--af-focus);
+}
+.af-text-resize-preview {
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding: 14px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.af-text-import-error,
+.af-text-import-notice {
+  position: absolute;
+  bottom: 4px;
+  left: 6px;
+  right: 6px;
+  z-index: 2;
+  padding: 7px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.af-text-import-error {
+  color: var(--af-danger);
+  background: var(--af-danger-bg);
+  border: 1px solid var(--af-danger);
+}
+.af-text-import-notice {
+  color: var(--af-text-secondary);
+  background: var(--af-surface-raised);
+  border: 1px solid var(--af-border-control);
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.af-text-import-notice button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 24px;
+  margin: -4px 0;
+  border-radius: 4px;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.af-text-import-notice button:hover:not(:disabled) {
+  background: var(--af-hover);
+}
+.af-text-import-notice button:focus-visible {
+  outline: 2px solid var(--af-focus);
+  outline-offset: 2px;
+}
+.af-text-import-notice button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.af-text-fullscreen,
+.af-text-import-dialog {
+  padding: 0;
+  color: var(--af-text);
+  background: var(--af-canvas);
+  border: 1px solid var(--af-border-control);
+}
+.af-text-fullscreen::backdrop,
+.af-text-import-dialog::backdrop {
+  background: var(--af-overlay);
+}
+.af-text-fullscreen {
+  position: fixed;
+  inset: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  border: 0;
+  overflow: hidden;
+}
+.af-text-fullscreen[open] {
+  display: flex;
+  flex-direction: column;
+}
+.af-text-fullscreen > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  flex: none;
+  border-bottom: 1px solid var(--af-border);
+}
+.af-text-fullscreen > header > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  color: var(--af-text-secondary);
+}
+.af-text-fullscreen-slot {
+  flex: 1;
+  min-height: 0;
+  padding: 16px clamp(16px, 4vw, 64px) 0;
+}
+.af-text-fullscreen > footer {
+  flex: none;
+  padding: 10px 24px;
+  font-size: 11px;
+  color: var(--af-text-muted);
+  text-align: center;
+}
+.af-text-import-dialog {
+  margin: auto;
+  width: min(480px, calc(100vw - 32px));
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--af-surface);
+}
+.af-text-import-dialog h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.af-text-import-dialog p {
+  margin: 8px 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--af-text-secondary);
+  overflow-wrap: anywhere;
+}
+.af-text-import-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.af-text-import-actions button {
+  font-size: 13px;
+  padding: 8px 12px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .af-text-import-spinner {
+    animation: none;
+  }
+}

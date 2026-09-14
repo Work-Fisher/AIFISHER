@@ -1,0 +1,379 @@
+{
+  "recordedAt": "2026-09-11T12:29:52.766Z",
+  "source": "https://api.work-fisher.com/api/pricing",
+  "note": "Existing catalog and recorded bill baselines precede the launch discount and the global markup reduction. Ratios are the historical reference, not an editable current price table.",
+  "models": {
+    "bytedance/doubao-seed-evolving": {
+      "ratio": 3.4,
+      "quotaType": 0
+    },
+    "deepseek/deepseek-v4-flash": {
+      "ratio": 0.46666667,
+      "quotaType": 0
+    },
+    "deepseek/deepseek-v4-pro": {
+      "ratio": 1.4,
+      "quotaType": 0
+    },
+    "kimi-k3": {
+      "ratio": 1.8,
+      "quotaType": 0
+    },
+    "workfisher-image-g-v2.5-lowprice": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-g-v2.5-flare": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-g-v2.5-sunburst": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-g-v2-lowprice": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-g2-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-g2-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-gk-v2": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-gk-v2-edit": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-nb-flash": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-nb-2-lite": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-nb-2": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "workfisher-image-nb-pro": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "seedream-v5-pro-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "seedream-v5-pro-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "seedream-v5-pro-layer-decomposition": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "dola-seedream-5.0-pro-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "dola-seedream-5.0-pro-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "dola-seedream-5.0-pro-layer-decomposition": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "midjourney-imagine": {
+      "ratio": 1.2,
+      "quotaType": 0
+    },
+    "qwen-image-3.0-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-pro-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-pro-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-global-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-global-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-global-pro-t2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen-image-3.0-global-pro-i2i": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "doubao-seed-audio-1.0": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "minimax-voice-clone": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "qwen3-tts-flash": {
+      "ratio": 1.2,
+      "quotaType": 1
+    },
+    "suno-generation": {
+      "ratio": 1.2,
+      "quotaType": 0
+    },
+    "suno-stems": {
+      "ratio": 1.2,
+      "quotaType": 0
+    },
+    "seedance-2.0-standard-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-standard-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-standard-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-fast-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-fast-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-fast-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-mini-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-mini-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-mini-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-fast-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-fast-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-fast-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-mini-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-mini-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-mini-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-standard-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-standard-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.0-global-standard-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "kling-v3.0-std-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3.0-std-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3.0-pro-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3.0-pro-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-std-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-std-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-std-r2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-std-edit": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-pro-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-pro-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-pro-r2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-o3-pro-edit": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "workfisher-video-g-omni-flash": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "minimax-h3-ow-t2v-fast": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "minimax-h3-ow-i2v-fast": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "minimax-h3-ow-r2v-fast": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "seedance-2.5-standard-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.5-standard-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.5-standard-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.5-global-standard-t2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.5-global-standard-i2v": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "seedance-2.5-global-standard-multi": {
+      "ratio": 1.1,
+      "quotaType": 0
+    },
+    "kling-v3-turbo-std-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3-turbo-std-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3-turbo-pro-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3-turbo-pro-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3-4k-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "kling-v3-4k-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-pro-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-pro-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-pro-start-end": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-turbo-t2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-turbo-i2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-turbo-start-end": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "vidu-q3-r2v": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "workfisher-video-gk-v15": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "workfisher-video-v31-lite": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "workfisher-video-v31-fast": {
+      "ratio": 1.1,
+      "quotaType": 1
+    },
+    "workfisher-video-v31-quality": {
+      "ratio": 1.1,
+      "quotaType": 1
+    }
+  }
+}

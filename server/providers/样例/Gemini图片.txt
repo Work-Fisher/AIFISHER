@@ -1,0 +1,58 @@
+GEMINI_API_KEY = env.GEMINI_API_KEY
+Nano Banana 2  :  gemini-3.1-flash-image-preview
+Nano Banana Pro:  gemini-3-pro-image-preview
+
+# 文生图
+curl -s -X POST \
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent" \
+  -H "x-goog-api-key: $GEMINI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "contents": [{
+      "parts": [
+        {"text": "Create a picture of a nano banana dish in a fancy restaurant with a Gemini theme"}
+      ]
+    }]
+  }'
+
+# 图生图
+curl -s -X POST \
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent" \
+    -H "x-goog-api-key: $GEMINI_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d "{
+      "contents": [{
+        "parts":[
+            {"text": "'Create a picture of my cat eating a nano-banana in a fancy restaurant under the Gemini constellation"},
+            {"inline_data": {"mime_type":"image/jpeg", "data": "<BASE64_DATA_IMG_1>"}},
+        ]
+      }],
+      "generationConfig": {
+        "responseModalities": ["TEXT", "IMAGE"],
+        "imageConfig": {"aspectRatio": "1:1", "imageSize": "512"}
+      }
+    }"
+
+
+# 多图生图
+curl -s -X POST \
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent" \
+    -H "x-goog-api-key: $GEMINI_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -d "{
+      "contents": [{
+        "parts":[
+            {"text": "An office group photo of these people, they are making funny faces."},
+            {"inline_data": {"mime_type":"image/png", "data": "<BASE64_DATA_IMG_1>"}},
+            {"inline_data": {"mime_type":"image/png", "data": "<BASE64_DATA_IMG_2>"}},
+            {"inline_data": {"mime_type":"image/png", "data": "<BASE64_DATA_IMG_3>"}},
+            {"inline_data": {"mime_type":"image/png", "data": "<BASE64_DATA_IMG_4>"}},
+            {"inline_data": {"mime_type":"image/png", "data": "<BASE64_DATA_IMG_5>"}}
+        ]
+      }],
+      "tools": [{"google_search": {}}],
+      "generationConfig": {
+        "responseModalities": ["TEXT", "IMAGE"],
+        "imageConfig": {"aspectRatio": "1:1", "imageSize": "1K"}
+      }
+    }"

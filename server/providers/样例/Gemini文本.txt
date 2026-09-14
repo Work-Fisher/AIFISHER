@@ -1,0 +1,127 @@
+GEMINI_API_KEY = env.GEMINI_API_KEY
+Gemini 3.1 Flash Lite :  gemini-3.1-flash-lite-preview
+
+https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent
+
+
+纯文本输入
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=YOUR_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -X POST \
+    -d '{
+      "contents": [{
+        "parts": [{"text": "解释一下什么是量子纠缠。"}]
+      }]
+    }'
+
+图像输入
+# 获取图片的 Base64
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=YOUR_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -X POST \
+    -d "{
+      \"contents\": [{
+        \"parts\": [
+          {\"text\": \"描述这张图片。\"},
+          {
+            \"inline_data\": {
+              \"mime_type\": \"image/jpeg\",
+              \"data\": \"$IMG_B64\"
+            }
+          }
+        ]
+      }]
+    }"
+
+视频输入
+# 获取视频的 Base64
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=YOUR_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -X POST \
+    -d "{
+      \"contents\": [{
+        \"parts\": [
+          {\"text\": \"总结这个视频的内容。\"},
+          {
+            \"inline_data\": {
+              \"mime_type\": \"video/mp4\",
+              \"data\": \"$VID_B64\"
+            }
+          }
+        ]
+      }]
+    }"
+
+音频输入
+# 获取音频的 Base64
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=YOUR_API_KEY" \
+    -H 'Content-Type: application/json' \
+    -X POST \
+    -d "{
+      \"contents\": [{
+        \"parts\": [
+          {\"text\": \"请把这段音频转录为文字。\"},
+          {
+            \"inline_data\": {
+              \"mime_type\": \"audio/mp3\",
+              \"data\": \"$AUD_B64\"
+            }
+          }
+        ]
+      }]
+    }"
+
+
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent" \
+  -H "x-goog-api-key: $GEMINI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {"text": "Who won the euro 2024?"}
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "google_search": {}
+      }
+    ]
+  }'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,59 @@
+文生图 https://developers.openai.com/api/reference/resources/images/methods/generate
+curl https://api.openai.com/v1/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "model": "gpt-image-2",
+    "prompt": "A cute baby sea otter",
+    "n": 1,
+    "size": "1024x1024"
+  }'
+
+响应
+{
+  "created": 1713833628,
+  "data": [
+    {
+      "b64_json": "..."
+    }
+  ],
+  "usage": {
+    "total_tokens": 100,
+    "input_tokens": 50,
+    "output_tokens": 50,
+    "input_tokens_details": {
+      "text_tokens": 10,
+      "image_tokens": 40
+    }
+  }
+}
+
+
+图生图 https://developers.openai.com/api/reference/resources/images/methods/edit
+curl https://api.openai.com/v1/images/edits \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "model": "gpt-image-2",
+    "prompt": "Create a lovely gift basket with these four items in it",
+    "images": [
+      "iVBORw0KGgoAAAANSUhEUgAA...",  // 这是 body-lotion.png 的 Base64 字符串
+      "iVBORw0KGgoAAAANSUhEUgAA...",  // 这是 bath-bomb.png 的 Base64 字符串
+      "iVBORw0KGgoAAAANSUhEUgAA...",  // 这是 incense-kit.png 的 Base64 字符串
+      "iVBORw0KGgoAAAANSUhEUgAA..."   // 这是 soap.png 的 Base64 字符串
+    ]
+  }'
+
+
+修图 https://developers.openai.com/api/reference/resources/images/methods/edit
+curl https://api.openai.com/v1/images/edits \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "model": "gpt-image-2",
+    "prompt": "A sunlit indoor lounge area with a pool containing a flamingo",
+    "images": ["iVBORw0KGgoAAA..."],  // 这是 sunlit_lounge.png (底图)
+    "mask": "iVBORw0KGgoAAA...",   // 这是 mask.png (告诉 AI 哪里需要修改)
+    "n": 1,
+    "size": "1024x1024"
+  }'

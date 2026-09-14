@@ -1,0 +1,118 @@
+即梦图片4.0 "model": "doubao-seedream-4-0-250828"
+即梦图片4.5 "model": "doubao-seedream-4-5-251128"
+即梦图片5.0 "model": "doubao-seedream-5-0-260128"
+ARK_API_KEY = env.ARK_API_KEY
+
+文生图-生成单张图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "星际穿越，黑洞，黑洞里冲出一辆快支离破碎的复古列车，抢视觉冲击力，电影大片，末日既视感，动感，对比色，oc渲染，光线追踪，动态模糊，景深，超现实主义，深蓝，画面通过细腻的丰富的色彩层次塑造主体与场景，质感真实，暗黑风背景的光影效果营造出氛围，整体兼具艺术幻想感，夸张的广角透视效果，耀光，反射，极致的光影，强引力，吞噬",
+    "sequential_image_generation": "disabled",
+    "size": "宽x高",
+    "stream": false,
+    "watermark": false
+}'
+
+文生图-生成组图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "生成一组共4张连贯插画，核心为同一庭院一角的四季变迁，以统一风格展现四季独特色彩、元素与氛围",
+    "sequential_image_generation": "auto",
+    "sequential_image_generation_options": {
+        "max_images": 4
+    },
+    "size": "宽x高",
+    "stream": true,
+    "watermark": false
+}'
+
+
+图生图-单张图生成单张图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "生成狗狗趴在草地上的近景画面",
+    "image": "data:image/png;base64,<base64_image>",
+    "sequential_image_generation": "disabled",
+    "size": "宽x高",
+    "stream": false,
+    "watermark": false
+}'
+
+
+图生图-单张图生成组图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "参考这个LOGO，做一套户外运动品牌视觉设计，品牌名称为GREEN，包括包装袋、帽子、纸盒、手环、挂绳等。绿色视觉主色调，趣味、简约现代风格",
+    "image": "data:image/png;base64,<base64_image>",
+    "sequential_image_generation": "auto",
+    "sequential_image_generation_options": {
+        "max_images": 5
+    },
+    "size": "宽x高",
+    "stream": true,
+    "watermark": false
+}'
+
+
+图生图-多张参考图生成单张图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "将图1的服装换为图2的服装",
+    "image": ["data:image/png;base64,<base64_image>", "data:image/png;base64,<base64_image>"],
+    "sequential_image_generation": "disabled",
+    "size": "宽x高",
+    "stream": false,
+    "watermark": false
+}'
+
+
+图生图-多张参考图生成组图
+curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-4-0-250828",
+    "prompt": "生成3张女孩和奶牛玩偶在游乐园开心地坐过山车的图片，涵盖早晨、中午、晚上",
+    "image": ["data:image/png;base64,<base64_image>", "data:image/png;base64,<base64_image>"],
+    "sequential_image_generation": "auto",
+    "sequential_image_generation_options": {
+        "max_images": 3
+    },
+    "size": "宽x高",
+    "stream": true,
+    "watermark": false
+}'
+
+
+即梦5.0 联网搜索
+curl https://ark.cn-beijing.volces.com/api/v3/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ARK_API_KEY" \
+  -d '{
+    "model": "doubao-seedream-5-0-260128",
+    "prompt": "制作一张上海未来5日的天气预报图，采用现代扁平化插画风格，清晰展示每日天气、温度和穿搭建议。 整体为横向排版，标题为“上海未来5日天气预报”，包含5个等宽的垂直卡片，从左到右依次排列。 整体风格为现代、干净、友好的扁平化矢量插画风格，线条清晰，色彩柔和。人物形象采用年轻男女的卡通插画，表情自然，姿态放松，服装细节清晰。",
+    "size": "2048x2048",
+    "tools": [
+      {
+          "type": "web_search"
+      }
+  ],
+    "output_format":"png",
+    "response_format": "url",
+    "watermark": false
+}'

@@ -1,0 +1,283 @@
+.af-angle-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--af-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.af-angle-panel {
+  width: 720px;
+  max-width: 100%;
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  background: var(--af-surface-raised);
+  color: var(--af-text);
+  border: 1px solid var(--af-border);
+  border-radius: 16px;
+  padding: 20px;
+  font-size: 13px;
+  box-shadow: 0 24px 80px #0009;
+}
+.af-angle-panel header,
+.af-angle-panel footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.af-angle-panel header > span,
+.af-angle-panel footer > span {
+  flex: 1;
+  color: var(--af-text-secondary);
+  font-size: 12px;
+}
+.af-angle-panel button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid var(--af-border);
+  background: var(--af-surface-raised);
+  padding: 7px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.af-angle-panel button:not(.primary):not(:disabled):hover {
+  background: var(--af-hover);
+}
+.af-angle-panel button:focus-visible,
+.af-angle-panel input:focus-visible {
+  outline: 2px solid var(--af-focus);
+  outline-offset: 3px;
+}
+.af-angle-panel .primary {
+  background: var(--af-primary);
+  color: var(--af-on-primary);
+}
+.af-angle-panel button.primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--af-primary) 90%, var(--af-on-primary));
+  color: var(--af-on-primary);
+}
+.af-angle-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 20px 0;
+}
+.af-angle-stage {
+  position: relative;
+  min-height: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: var(--af-surface-raised);
+  perspective: 700px;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+  user-select: none;
+}
+.af-angle-stage:active {
+  cursor: grabbing;
+}
+.af-angle-object {
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+.af-angle-object > div {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--af-hover);
+  border: 1px solid var(--af-border-control);
+  border-radius: 8px;
+}
+.af-angle-front {
+  transform: translateZ(75px);
+}
+.af-angle-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.af-angle-back {
+  transform: rotateY(180deg) translateZ(75px);
+}
+.af-angle-left {
+  transform: rotateY(-90deg) translateZ(75px);
+}
+.af-angle-right {
+  transform: rotateY(90deg) translateZ(75px);
+}
+.af-angle-top {
+  transform: rotateX(90deg) translateZ(75px);
+}
+.af-angle-bottom {
+  transform: rotateX(-90deg) translateZ(75px);
+}
+.af-angle-caption {
+  position: absolute;
+  bottom: 12px;
+  color: var(--af-text-secondary);
+  font-size: 11px;
+}
+.af-angle-controls label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+.af-angle-controls input {
+  grid-column: 1/-1;
+  width: 100%;
+  accent-color: var(--af-primary);
+}
+.af-angle-controls output {
+  font-variant-numeric: tabular-nums;
+  color: var(--af-text-secondary);
+}
+.af-angle-controls p {
+  color: var(--af-text-secondary);
+  margin-top: 12px;
+}
+.af-angle-presets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.af-angle-presets button {
+  font-size: 11px;
+  padding: 6px 2px;
+}
+.af-angle-presets [aria-pressed='true'] {
+  border-color: var(--af-border-control);
+  color: var(--af-text);
+  background: var(--af-hover);
+}
+@media (max-width: 600px) {
+  .af-angle-body {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .af-angle-stage {
+    min-height: 210px;
+  }
+  .af-angle-panel footer {
+    flex-wrap: wrap;
+  }
+  .af-angle-panel footer > span {
+    min-width: 160px;
+  }
+  .af-angle-panel header > span {
+    display: none;
+  }
+  .af-angle-panel header > strong {
+    flex: 1;
+  }
+}
+
+/* Image tools keep the selected picture visible above their controls. */
+.af-angle-workspace {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--af-surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.af-angle-source {
+  display: block;
+  width: min(640px, 100%);
+  height: clamp(150px, calc(100dvh - 430px), 540px);
+  min-height: 150px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 14px;
+}
+.af-angle-workspace .af-angle-panel {
+  flex-shrink: 0;
+  max-height: none;
+  width: 720px;
+  padding: 16px;
+  box-shadow: none;
+}
+.af-angle-workspace .af-angle-body {
+  margin: 14px 0;
+  gap: 20px;
+}
+.af-angle-workspace .af-angle-stage {
+  min-height: 220px;
+}
+.af-angle-workspace .af-angle-controls label {
+  margin: 4px 0 12px;
+}
+.af-angle-workspace .af-angle-object {
+  width: 120px;
+  height: 120px;
+}
+.af-angle-workspace .af-angle-front {
+  transform: translateZ(60px);
+}
+.af-angle-workspace .af-angle-back {
+  transform: rotateY(180deg) translateZ(60px);
+}
+.af-angle-workspace .af-angle-left {
+  transform: rotateY(-90deg) translateZ(60px);
+}
+.af-angle-workspace .af-angle-right {
+  transform: rotateY(90deg) translateZ(60px);
+}
+.af-angle-workspace .af-angle-top {
+  transform: rotateX(90deg) translateZ(60px);
+}
+.af-angle-workspace .af-angle-bottom {
+  transform: rotateX(-90deg) translateZ(60px);
+}
+.af-panorama-generate .af-angle-source {
+  height: clamp(180px, calc(100dvh - 190px), 720px);
+}
+.af-panorama-generate footer {
+  margin-top: 16px;
+}
+
+.af-angle-workspace {
+  display: grid;
+  grid-template-rows: minmax(150px, 1fr) auto;
+  justify-items: center;
+  align-items: stretch;
+}
+.af-angle-workspace .af-angle-source {
+  height: 100%;
+  min-height: 0;
+  max-height: 100%;
+}
+.af-angle-presets-menu summary {
+  color: var(--af-text-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  margin: 4px 0 8px;
+}
+
+.af-angle-anchored .af-angle-panel {
+  position: fixed;
+  z-index: 1000;
+  left: max(12px, calc(50vw - 360px));
+  top: 100px;
+  width: min(720px, calc(100vw - 24px));
+  padding: 16px;
+  overscroll-behavior: contain;
+}

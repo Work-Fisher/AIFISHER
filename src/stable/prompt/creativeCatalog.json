@@ -1,0 +1,2618 @@
+[
+  {
+    "id": "style-643",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "暖阳赛璐璐CG",
+    "description": "暖阳高饱和，赛璐璐 CG",
+    "prompt": "视觉风格：暖阳赛璐璐CG。暖阳高饱和，赛璐璐 CG不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-643.webp"
+  },
+  {
+    "id": "style-526",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "原子朋克末日风格",
+    "description": "原子朋克末日风格画面表现",
+    "prompt": "视觉风格：原子朋克末日风格。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n末世电影感，废墟世界，求生尘土，孤独辽阔。",
+    "preview": "/creative-presets/style-526.webp"
+  },
+  {
+    "id": "style-561",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "手绘质感3D动画",
+    "description": "手绘质感3D动画画面表现",
+    "prompt": "视觉风格：手绘质感3D动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-561.webp"
+  },
+  {
+    "id": "style-626",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "电影感",
+    "description": "电影感画面表现",
+    "prompt": "视觉风格：电影感。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-626.webp"
+  },
+  {
+    "id": "style-550",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "UE5渲染风格",
+    "description": "UE5渲染风格画面表现",
+    "prompt": "视觉风格：UE5渲染风格。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-550.webp"
+  },
+  {
+    "id": "style-625",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "电视剧感",
+    "description": "电视剧感画面表现",
+    "prompt": "视觉风格：电视剧感。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-625.webp"
+  },
+  {
+    "id": "style-549",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "科幻国漫",
+    "description": "科幻国漫画面表现",
+    "prompt": "视觉风格：科幻国漫。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-549.webp"
+  },
+  {
+    "id": "style-542",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "科幻机甲CG",
+    "description": "科幻机甲CG画面表现",
+    "prompt": "视觉风格：科幻机甲CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-542.webp"
+  },
+  {
+    "id": "style-565",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "国漫3D电影",
+    "description": "国漫3D电影画面表现",
+    "prompt": "视觉风格：国漫3D电影。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-565.webp"
+  },
+  {
+    "id": "style-540",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "爱死机CG短片",
+    "description": "爱死机CG短片画面表现",
+    "prompt": "视觉风格：爱死机CG短片。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-540.webp"
+  },
+  {
+    "id": "style-533",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "漫画感3D动画",
+    "description": "漫画感3D动画画面表现",
+    "prompt": "视觉风格：漫画感3D动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-533.webp"
+  },
+  {
+    "id": "style-591",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "短剧风格",
+    "description": "短剧风格画面表现",
+    "prompt": "视觉风格：短剧风格。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-591.webp"
+  },
+  {
+    "id": "style-537",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "3D乙游",
+    "description": "3D乙游画面表现",
+    "prompt": "视觉风格：3D乙游。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-537.webp"
+  },
+  {
+    "id": "style-530",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "日式幻想CG",
+    "description": "日式幻想CG画面表现",
+    "prompt": "视觉风格：日式幻想CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-530.webp"
+  },
+  {
+    "id": "style-531",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "史诗奇幻CG",
+    "description": "史诗奇幻CG画面表现",
+    "prompt": "视觉风格：史诗奇幻CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n史诗电影镜头，戏剧化光影，超宽画幅，IMAX 气势。",
+    "preview": "/creative-presets/style-531.webp"
+  },
+  {
+    "id": "style-615",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "邵氏电影",
+    "description": "邵氏电影画面表现",
+    "prompt": "视觉风格：邵氏电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n港风电影氛围，霓虹招牌，湿润街道，浓郁城市感。",
+    "preview": "/creative-presets/style-615.webp"
+  },
+  {
+    "id": "style-529",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "游戏动画电影感",
+    "description": "游戏动画电影感画面表现",
+    "prompt": "视觉风格：游戏动画电影感。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-529.webp"
+  },
+  {
+    "id": "style-634",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "宫斗权谋",
+    "description": "宫斗权谋画面表现",
+    "prompt": "视觉风格：宫斗权谋。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-634.webp"
+  },
+  {
+    "id": "style-633",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "时尚大片",
+    "description": "时尚大片画面表现",
+    "prompt": "视觉风格：时尚大片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n时装大片电影感，姿态雕塑感，高级杂志布光。",
+    "preview": "/creative-presets/style-633.webp"
+  },
+  {
+    "id": "style-570",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "温情家庭动画",
+    "description": "温情家庭动画画面表现",
+    "prompt": "视觉风格：温情家庭动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n家庭剧电影感，亲密室内空间，层次日常情绪。",
+    "preview": "/creative-presets/style-570.webp"
+  },
+  {
+    "id": "style-575",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "原子朋克",
+    "description": "原子朋克画面表现",
+    "prompt": "视觉风格：原子朋克。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-575.webp"
+  },
+  {
+    "id": "style-569",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "梦幻童话动画",
+    "description": "梦幻童话动画画面表现",
+    "prompt": "视觉风格：梦幻童话动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n童话电影感，魔法柔和，绘本色彩，温柔奇幻感。",
+    "preview": "/creative-presets/style-569.webp"
+  },
+  {
+    "id": "style-563",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "赛璐璐CG",
+    "description": "赛璐璐CG画面表现",
+    "prompt": "视觉风格：赛璐璐CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-563.webp"
+  },
+  {
+    "id": "style-519",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "单色线稿",
+    "description": "单色线稿，简洁轮廓",
+    "prompt": "视觉风格：单色线稿。单色线稿，简洁轮廓不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-519.webp"
+  },
+  {
+    "id": "style-518",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "插画卡通",
+    "description": "插画卡通，色彩明快",
+    "prompt": "视觉风格：插画卡通。插画卡通，色彩明快不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-518.webp"
+  },
+  {
+    "id": "style-525",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "三维渲染动漫",
+    "description": "3D 动漫，赛璐璐质感",
+    "prompt": "视觉风格：三维渲染动漫。3D 动漫，赛璐璐质感不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-525.webp"
+  },
+  {
+    "id": "style-510",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "Q版2D",
+    "description": "Q版卡通，夸张可爱",
+    "prompt": "视觉风格：Q版2D。Q版卡通，夸张可爱不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-510.webp"
+  },
+  {
+    "id": "style-524",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "3D国漫",
+    "description": "3D 国漫，东方造型",
+    "prompt": "视觉风格：3D国漫。3D 国漫，东方造型不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-524.webp"
+  },
+  {
+    "id": "style-517",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "2D国漫",
+    "description": "2D 国漫，平面线条",
+    "prompt": "视觉风格：2D国漫。2D 国漫，平面线条不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-517.webp"
+  },
+  {
+    "id": "style-516",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国风水墨2D",
+    "description": "水墨晕染，留白意境",
+    "prompt": "视觉风格：国风水墨2D。水墨晕染，留白意境不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-516.webp"
+  },
+  {
+    "id": "style-629",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "生活方式摄影",
+    "description": "生活方式摄影画面表现",
+    "prompt": "视觉风格：生活方式摄影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n生活流电影剧照，温暖日常瞬间，柔和自然真实感。",
+    "preview": "/creative-presets/style-629.webp"
+  },
+  {
+    "id": "style-559",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "潮玩手办",
+    "description": "潮玩手办画面表现",
+    "prompt": "视觉风格：潮玩手办。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-559.webp"
+  },
+  {
+    "id": "style-515",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国风悬疑2D",
+    "description": "中式悬疑，阴郁氛围",
+    "prompt": "视觉风格：国风悬疑2D。中式悬疑，阴郁氛围不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-515.webp"
+  },
+  {
+    "id": "style-628",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "韩剧柔光",
+    "description": "韩剧柔光画面表现",
+    "prompt": "视觉风格：韩剧柔光。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-628.webp"
+  },
+  {
+    "id": "style-604",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "商业广告大片",
+    "description": "商业广告大片画面表现",
+    "prompt": "视觉风格：商业广告大片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n高级广告片质感，精致布光，干净高级构图。",
+    "preview": "/creative-presets/style-604.webp"
+  },
+  {
+    "id": "style-594",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "东方神话",
+    "description": "东方神话画面表现",
+    "prompt": "视觉风格：东方神话。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-594.webp"
+  },
+  {
+    "id": "style-560",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "暗童话3D",
+    "description": "暗童话3D画面表现",
+    "prompt": "视觉风格：暗童话3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n童话电影感，魔法柔和，绘本色彩，温柔奇幻感。",
+    "preview": "/creative-presets/style-560.webp"
+  },
+  {
+    "id": "style-527",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "奶油甜品3D",
+    "description": "奶油甜品3D画面表现",
+    "prompt": "视觉风格：奶油甜品3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-527.webp"
+  },
+  {
+    "id": "style-523",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "国风悬疑3D",
+    "description": "中式悬疑，3D 阴郁氛围",
+    "prompt": "视觉风格：国风悬疑3D。中式悬疑，3D 阴郁氛围不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-523.webp"
+  },
+  {
+    "id": "style-622",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "国产悬疑",
+    "description": "国产悬疑画面表现",
+    "prompt": "视觉风格：国产悬疑。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-622.webp"
+  },
+  {
+    "id": "style-514",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "2D赛璐璐",
+    "description": "日系赛璐璐，硬边平涂",
+    "prompt": "视觉风格：2D赛璐璐。日系赛璐璐，硬边平涂不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-514.png"
+  },
+  {
+    "id": "style-617",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "90年代港片",
+    "description": "90年代港片画面表现",
+    "prompt": "视觉风格：90年代港片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n港风电影氛围，霓虹招牌，湿润街道，浓郁城市感。",
+    "preview": "/creative-presets/style-617.webp"
+  },
+  {
+    "id": "style-513",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "新海诚风格",
+    "description": "新海诚感，光影通透",
+    "prompt": "视觉风格：新海诚风格。新海诚感，光影通透不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-513.webp"
+  },
+  {
+    "id": "style-612",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "科幻电影",
+    "description": "科幻电影画面表现",
+    "prompt": "视觉风格：科幻电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-612.webp"
+  },
+  {
+    "id": "style-512",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "2D治愈",
+    "description": "治愈日常，清新柔和",
+    "prompt": "视觉风格：2D治愈。治愈日常，清新柔和不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-512.webp"
+  },
+  {
+    "id": "style-611",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "硬科幻电影",
+    "description": "硬科幻电影画面表现",
+    "prompt": "视觉风格：硬科幻电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-611.webp"
+  },
+  {
+    "id": "style-511",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日漫2D热血",
+    "description": "热血少年，动感强烈",
+    "prompt": "视觉风格：日漫2D热血。热血少年，动感强烈不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-511.webp"
+  },
+  {
+    "id": "style-555",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "黏土动画",
+    "description": "黏土动画画面表现",
+    "prompt": "视觉风格：黏土动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-555.webp"
+  },
+  {
+    "id": "style-554",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "纸艺童话世界",
+    "description": "纸艺童话世界画面表现",
+    "prompt": "视觉风格：纸艺童话世界。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n童话电影感，魔法柔和，绘本色彩，温柔奇幻感。",
+    "preview": "/creative-presets/style-554.webp"
+  },
+  {
+    "id": "style-522",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "欧美3D",
+    "description": "欧美 3D，夸张表情",
+    "prompt": "视觉风格：欧美3D。欧美 3D，夸张表情不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-522.webp"
+  },
+  {
+    "id": "style-641",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "自然写实摄影",
+    "description": "照片级写实，真实光影",
+    "prompt": "视觉风格：自然写实摄影。照片级写实，真实光影不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-641.webp"
+  },
+  {
+    "id": "style-608",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "古偶唯美",
+    "description": "古偶唯美画面表现",
+    "prompt": "视觉风格：古偶唯美。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-608.webp"
+  },
+  {
+    "id": "style-521",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "CG3D写实",
+    "description": "CG 写实，PBR 材质",
+    "prompt": "视觉风格：CG3D写实。CG 写实，PBR 材质不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-521.webp"
+  },
+  {
+    "id": "style-520",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "Q版3D",
+    "description": "大头小身，圆润可爱，3D 动画质感",
+    "prompt": "视觉风格：Q版3D。大头小身，圆润可爱，3D 动画质感不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-520.webp"
+  },
+  {
+    "id": "style-642",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "冷绿悬疑",
+    "description": "冷绿悬疑画面表现",
+    "prompt": "视觉风格：冷绿悬疑。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-642.webp"
+  },
+  {
+    "id": "style-640",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "美式恐怖",
+    "description": "美式恐怖画面表现",
+    "prompt": "视觉风格：美式恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-640.webp"
+  },
+  {
+    "id": "style-639",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "韩式恐怖",
+    "description": "韩式恐怖画面表现",
+    "prompt": "视觉风格：韩式恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-639.webp"
+  },
+  {
+    "id": "style-638",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "民俗恐怖",
+    "description": "民俗恐怖画面表现",
+    "prompt": "视觉风格：民俗恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-638.webp"
+  },
+  {
+    "id": "style-637",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "VHS恐怖",
+    "description": "VHS恐怖画面表现",
+    "prompt": "视觉风格：VHS恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-637.webp"
+  },
+  {
+    "id": "style-636",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "蒸汽朋克",
+    "description": "蒸汽朋克画面表现",
+    "prompt": "视觉风格：蒸汽朋克。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n蒸汽朋克电影感，黄铜机械，烟雾工业幻想。",
+    "preview": "/creative-presets/style-636.webp"
+  },
+  {
+    "id": "style-635",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "柴油朋克",
+    "description": "柴油朋克画面表现",
+    "prompt": "视觉风格：柴油朋克。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-635.webp"
+  },
+  {
+    "id": "style-632",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "纪实纪录片",
+    "description": "纪实纪录片画面表现",
+    "prompt": "视觉风格：纪实纪录片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n纪录片电影剧照，自然质地，真实抓拍感。",
+    "preview": "/creative-presets/style-632.webp"
+  },
+  {
+    "id": "style-631",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "新闻纪实摄影",
+    "description": "新闻纪实摄影画面表现",
+    "prompt": "视觉风格：新闻纪实摄影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n纪录片电影剧照，自然质地，真实抓拍感。",
+    "preview": "/creative-presets/style-631.webp"
+  },
+  {
+    "id": "style-630",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "街头摄影",
+    "description": "街头摄影画面表现",
+    "prompt": "视觉风格：街头摄影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-630.webp"
+  },
+  {
+    "id": "style-627",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "黑白电影",
+    "description": "黑白电影画面表现",
+    "prompt": "视觉风格：黑白电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n黑色电影风格，高反差，硬朗阴影，黑白影调。",
+    "preview": "/creative-presets/style-627.webp"
+  },
+  {
+    "id": "style-624",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "黑色犯罪电影",
+    "description": "黑色犯罪电影画面表现",
+    "prompt": "视觉风格：黑色犯罪电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n黑色电影风格，高反差，硬朗阴影，黑白影调。",
+    "preview": "/creative-presets/style-624.webp"
+  },
+  {
+    "id": "style-623",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "悬疑电影",
+    "description": "悬疑电影画面表现",
+    "prompt": "视觉风格：悬疑电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-623.webp"
+  },
+  {
+    "id": "style-621",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "恐怖片",
+    "description": "恐怖片画面表现",
+    "prompt": "视觉风格：恐怖片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-621.webp"
+  },
+  {
+    "id": "style-620",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "日式恐怖",
+    "description": "日式恐怖画面表现",
+    "prompt": "视觉风格：日式恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-620.webp"
+  },
+  {
+    "id": "style-619",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "宗教恐怖",
+    "description": "宗教恐怖画面表现",
+    "prompt": "视觉风格：宗教恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-619.webp"
+  },
+  {
+    "id": "style-618",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "监控恐怖",
+    "description": "监控恐怖画面表现",
+    "prompt": "视觉风格：监控恐怖。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-618.webp"
+  },
+  {
+    "id": "style-616",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "港风霓虹",
+    "description": "港风霓虹画面表现",
+    "prompt": "视觉风格：港风霓虹。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n赛博朋克霓虹城市，雨夜反光，银翼杀手式氛围。",
+    "preview": "/creative-presets/style-616.webp"
+  },
+  {
+    "id": "style-614",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "香港警匪片",
+    "description": "香港警匪片画面表现",
+    "prompt": "视觉风格：香港警匪片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n港风电影氛围，霓虹招牌，湿润街道，浓郁城市感。",
+    "preview": "/creative-presets/style-614.webp"
+  },
+  {
+    "id": "style-613",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "港式迷离文艺",
+    "description": "港式迷离文艺画面表现",
+    "prompt": "视觉风格：港式迷离文艺。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n港风电影氛围，霓虹招牌，湿润街道，浓郁城市感。",
+    "preview": "/creative-presets/style-613.webp"
+  },
+  {
+    "id": "style-610",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "赛博朋克电影",
+    "description": "赛博朋克电影画面表现",
+    "prompt": "视觉风格：赛博朋克电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n赛博朋克霓虹城市，雨夜反光，银翼杀手式氛围。",
+    "preview": "/creative-presets/style-610.webp"
+  },
+  {
+    "id": "style-609",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "末世废土",
+    "description": "末世废土画面表现",
+    "prompt": "视觉风格：末世废土。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n末世电影感，废墟世界，求生尘土，孤独辽阔。",
+    "preview": "/creative-presets/style-609.webp"
+  },
+  {
+    "id": "style-607",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "写实武侠",
+    "description": "写实武侠画面表现",
+    "prompt": "视觉风格：写实武侠。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n武侠电影氛围，诗意动作，雾气古风场景。",
+    "preview": "/creative-presets/style-607.webp"
+  },
+  {
+    "id": "style-606",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "仙侠玄幻",
+    "description": "仙侠玄幻画面表现",
+    "prompt": "视觉风格：仙侠玄幻。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-606.webp"
+  },
+  {
+    "id": "style-605",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "中式梦核",
+    "description": "中式梦核画面表现",
+    "prompt": "视觉风格：中式梦核。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-605.webp"
+  },
+  {
+    "id": "style-603",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "MV风格",
+    "description": "MV风格画面表现",
+    "prompt": "视觉风格：MV风格。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\nMV 电影风格，节奏化构图，大胆时髦氛围。",
+    "preview": "/creative-presets/style-603.webp"
+  },
+  {
+    "id": "style-602",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "日系青春胶片",
+    "description": "日系青春胶片画面表现",
+    "prompt": "视觉风格：日系青春胶片。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n复古 35mm 胶片颗粒，褪色色彩，柯达人像胶片感。",
+    "preview": "/creative-presets/style-602.webp"
+  },
+  {
+    "id": "style-601",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "复古电影",
+    "description": "复古电影画面表现",
+    "prompt": "视觉风格：复古电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-601.webp"
+  },
+  {
+    "id": "style-600",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "老上海电影",
+    "description": "老上海电影画面表现",
+    "prompt": "视觉风格：老上海电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-600.webp"
+  },
+  {
+    "id": "style-599",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "民国影楼",
+    "description": "民国影楼画面表现",
+    "prompt": "视觉风格：民国影楼。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-599.webp"
+  },
+  {
+    "id": "style-598",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "昭和电影",
+    "description": "昭和电影画面表现",
+    "prompt": "视觉风格：昭和电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-598.webp"
+  },
+  {
+    "id": "style-597",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "法式文艺",
+    "description": "法式文艺画面表现",
+    "prompt": "视觉风格：法式文艺。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-597.webp"
+  },
+  {
+    "id": "style-596",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "北欧冷淡",
+    "description": "北欧冷淡画面表现",
+    "prompt": "视觉风格：北欧冷淡。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n北欧冷调电影感，浅淡日光，安静克制氛围。",
+    "preview": "/creative-presets/style-596.webp"
+  },
+  {
+    "id": "style-595",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "拉美魔幻现实",
+    "description": "拉美魔幻现实画面表现",
+    "prompt": "视觉风格：拉美魔幻现实。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n魔幻现实电影感，日常世界中带有微妙奇迹。",
+    "preview": "/creative-presets/style-595.webp"
+  },
+  {
+    "id": "style-593",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "荒诞喜剧电影",
+    "description": "荒诞喜剧电影画面表现",
+    "prompt": "视觉风格：荒诞喜剧电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-593.webp"
+  },
+  {
+    "id": "style-592",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "超现实电影",
+    "description": "超现实电影画面表现",
+    "prompt": "视觉风格：超现实电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n超现实电影感，梦境逻辑，不可能空间，不安美感。",
+    "preview": "/creative-presets/style-592.webp"
+  },
+  {
+    "id": "style-590",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "美式复古广告",
+    "description": "美式复古广告画面表现",
+    "prompt": "视觉风格：美式复古广告。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n高级广告片质感，精致布光，干净高级构图。",
+    "preview": "/creative-presets/style-590.webp"
+  },
+  {
+    "id": "style-589",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "美式繁荣年代",
+    "description": "美式繁荣年代画面表现",
+    "prompt": "视觉风格：美式繁荣年代。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-589.webp"
+  },
+  {
+    "id": "style-588",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "80年代录像厅",
+    "description": "80年代录像厅画面表现",
+    "prompt": "视觉风格：80年代录像厅。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-588.webp"
+  },
+  {
+    "id": "style-587",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "90年代写实电影",
+    "description": "90年代写实电影画面表现",
+    "prompt": "视觉风格：90年代写实电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-587.webp"
+  },
+  {
+    "id": "style-586",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "民俗志怪真人",
+    "description": "民俗志怪真人画面表现",
+    "prompt": "视觉风格：民俗志怪真人。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-586.webp"
+  },
+  {
+    "id": "style-585",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "西部电影",
+    "description": "西部电影画面表现",
+    "prompt": "视觉风格：西部电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n现代西部片质感，尘土阳光，粗粝电影氛围。",
+    "preview": "/creative-presets/style-585.webp"
+  },
+  {
+    "id": "style-584",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "复古战争电影",
+    "description": "复古战争电影画面表现",
+    "prompt": "视觉风格：复古战争电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n战争片氛围，烟尘粗粝，人性紧迫感，低饱和真实主义。",
+    "preview": "/creative-presets/style-584.webp"
+  },
+  {
+    "id": "style-583",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "中世纪史诗",
+    "description": "中世纪史诗画面表现",
+    "prompt": "视觉风格：中世纪史诗。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n史诗电影镜头，戏剧化光影，超宽画幅，IMAX 气势。",
+    "preview": "/creative-presets/style-583.webp"
+  },
+  {
+    "id": "style-582",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "维京传奇",
+    "description": "维京传奇画面表现",
+    "prompt": "视觉风格：维京传奇。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-582.webp"
+  },
+  {
+    "id": "style-581",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "蓝调电影",
+    "description": "蓝调电影画面表现",
+    "prompt": "视觉风格：蓝调电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-581.webp"
+  },
+  {
+    "id": "style-580",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "迷幻电影",
+    "description": "迷幻电影画面表现",
+    "prompt": "视觉风格：迷幻电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-580.webp"
+  },
+  {
+    "id": "style-579",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "紫调梦幻电影",
+    "description": "紫调梦幻电影画面表现",
+    "prompt": "视觉风格：紫调梦幻电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-579.webp"
+  },
+  {
+    "id": "style-578",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "星际史诗",
+    "description": "星际史诗画面表现",
+    "prompt": "视觉风格：星际史诗。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n史诗电影镜头，戏剧化光影，超宽画幅，IMAX 气势。",
+    "preview": "/creative-presets/style-578.webp"
+  },
+  {
+    "id": "style-577",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "反乌托邦",
+    "description": "反乌托邦画面表现",
+    "prompt": "视觉风格：反乌托邦。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-577.webp"
+  },
+  {
+    "id": "style-576",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "生化惊悚",
+    "description": "生化惊悚画面表现",
+    "prompt": "视觉风格：生化惊悚。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-576.webp"
+  },
+  {
+    "id": "style-574",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "梦核影像",
+    "description": "梦核影像画面表现",
+    "prompt": "视觉风格：梦核影像。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-574.webp"
+  },
+  {
+    "id": "style-573",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "怪核影像",
+    "description": "怪核影像画面表现",
+    "prompt": "视觉风格：怪核影像。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-573.webp"
+  },
+  {
+    "id": "style-572",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "美式怪趣电影",
+    "description": "美式怪趣电影画面表现",
+    "prompt": "视觉风格：美式怪趣电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-572.webp"
+  },
+  {
+    "id": "style-571",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "宫廷冷调",
+    "description": "宫廷冷调画面表现",
+    "prompt": "视觉风格：宫廷冷调。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-571.webp"
+  },
+  {
+    "id": "style-568",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "喜剧冒险动画",
+    "description": "喜剧冒险动画画面表现",
+    "prompt": "视觉风格：喜剧冒险动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-568.webp"
+  },
+  {
+    "id": "style-567",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "夸张卡通3D",
+    "description": "夸张卡通3D画面表现",
+    "prompt": "视觉风格：夸张卡通3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-567.webp"
+  },
+  {
+    "id": "style-566",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "卡通小人",
+    "description": "卡通小人画面表现",
+    "prompt": "视觉风格：卡通小人。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-566.webp"
+  },
+  {
+    "id": "style-564",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "超写实数字人",
+    "description": "超写实数字人画面表现",
+    "prompt": "视觉风格：超写实数字人。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-564.webp"
+  },
+  {
+    "id": "style-562",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "二次元3D动画",
+    "description": "二次元3D动画画面表现",
+    "prompt": "视觉风格：二次元3D动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-562.webp"
+  },
+  {
+    "id": "style-558",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "盲盒玩具",
+    "description": "盲盒玩具画面表现",
+    "prompt": "视觉风格：盲盒玩具。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-558.webp"
+  },
+  {
+    "id": "style-557",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "毛绒玩具",
+    "description": "毛绒玩具画面表现",
+    "prompt": "视觉风格：毛绒玩具。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-557.webp"
+  },
+  {
+    "id": "style-556",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "毛线3D卡通",
+    "description": "毛线3D卡通画面表现",
+    "prompt": "视觉风格：毛线3D卡通。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-556.webp"
+  },
+  {
+    "id": "style-553",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "微缩玩具世界",
+    "description": "微缩玩具世界画面表现",
+    "prompt": "视觉风格：微缩玩具世界。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-553.webp"
+  },
+  {
+    "id": "style-552",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "方块沙盒游戏",
+    "description": "方块沙盒游戏画面表现",
+    "prompt": "视觉风格：方块沙盒游戏。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-552.webp"
+  },
+  {
+    "id": "style-551",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "积木玩具世界",
+    "description": "积木玩具世界画面表现",
+    "prompt": "视觉风格：积木玩具世界。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-551.webp"
+  },
+  {
+    "id": "style-548",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "写实游戏CG",
+    "description": "写实游戏CG画面表现",
+    "prompt": "视觉风格：写实游戏CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-548.webp"
+  },
+  {
+    "id": "style-547",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "游戏过场动画",
+    "description": "游戏过场动画画面表现",
+    "prompt": "视觉风格：游戏过场动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-547.webp"
+  },
+  {
+    "id": "style-546",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "暗黑奇幻游戏",
+    "description": "暗黑奇幻游戏画面表现",
+    "prompt": "视觉风格：暗黑奇幻游戏。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n暗黑奇幻电影氛围，神秘阴影，绘画般戏剧张力。",
+    "preview": "/creative-presets/style-546.webp"
+  },
+  {
+    "id": "style-545",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "魂系游戏美术",
+    "description": "魂系游戏美术画面表现",
+    "prompt": "视觉风格：魂系游戏美术。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-545.webp"
+  },
+  {
+    "id": "style-544",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "赛博游戏电影",
+    "description": "赛博游戏电影画面表现",
+    "prompt": "视觉风格：赛博游戏电影。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n赛博朋克霓虹城市，雨夜反光，银翼杀手式氛围。",
+    "preview": "/creative-presets/style-544.webp"
+  },
+  {
+    "id": "style-543",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "开放世界游戏感",
+    "description": "开放世界游戏感画面表现",
+    "prompt": "视觉风格：开放世界游戏感。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-543.webp"
+  },
+  {
+    "id": "style-541",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "影视怪兽CG",
+    "description": "影视怪兽CG画面表现",
+    "prompt": "视觉风格：影视怪兽CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-541.webp"
+  },
+  {
+    "id": "style-539",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "莱卡定格动画",
+    "description": "莱卡定格动画画面表现",
+    "prompt": "视觉风格：莱卡定格动画。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-539.webp"
+  },
+  {
+    "id": "style-538",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "西部写实游戏CG",
+    "description": "西部写实游戏CG画面表现",
+    "prompt": "视觉风格：西部写实游戏CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n现代西部片质感，尘土阳光，粗粝电影氛围。",
+    "preview": "/creative-presets/style-538.webp"
+  },
+  {
+    "id": "style-536",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "中式武侠游戏CG",
+    "description": "中式武侠游戏CG画面表现",
+    "prompt": "视觉风格：中式武侠游戏CG。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n武侠电影氛围，诗意动作，雾气古风场景。",
+    "preview": "/creative-presets/style-536.webp"
+  },
+  {
+    "id": "style-535",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "开放幻想二游3D",
+    "description": "开放幻想二游3D画面表现",
+    "prompt": "视觉风格：开放幻想二游3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-535.webp"
+  },
+  {
+    "id": "style-534",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "星穹科幻二游3D",
+    "description": "星穹科幻二游3D画面表现",
+    "prompt": "视觉风格：星穹科幻二游3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-534.webp"
+  },
+  {
+    "id": "style-532",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "美式英雄游戏3D",
+    "description": "美式英雄游戏3D画面表现",
+    "prompt": "视觉风格：美式英雄游戏3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-532.webp"
+  },
+  {
+    "id": "style-528",
+    "kind": "style",
+    "category": "3D风格",
+    "name": "果冻质感3D",
+    "description": "果冻质感3D画面表现",
+    "prompt": "视觉风格：果冻质感3D。统一三维造型、材质和渲染语言，保持体积、光影与空间层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-528.webp"
+  },
+  {
+    "id": "style-509",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式手绘童话动画",
+    "description": "日式手绘童话动画画面表现",
+    "prompt": "视觉风格：日式手绘童话动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n童话电影感，魔法柔和，绘本色彩，温柔奇幻感。",
+    "preview": "/creative-presets/style-509.webp"
+  },
+  {
+    "id": "style-508",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日系新海诚动画",
+    "description": "日系新海诚动画画面表现",
+    "prompt": "视觉风格：日系新海诚动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-508.webp"
+  },
+  {
+    "id": "style-507",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "都市咒术系动画",
+    "description": "都市咒术系动画画面表现",
+    "prompt": "视觉风格：都市咒术系动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-507.webp"
+  },
+  {
+    "id": "style-506",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式华丽和风动画",
+    "description": "日式华丽和风动画画面表现",
+    "prompt": "视觉风格：日式华丽和风动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-506.webp"
+  },
+  {
+    "id": "style-505",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "复古赛璐璐动画",
+    "description": "复古赛璐璐动画画面表现",
+    "prompt": "视觉风格：复古赛璐璐动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-505.webp"
+  },
+  {
+    "id": "style-504",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "压迫史诗日漫",
+    "description": "压迫史诗日漫画面表现",
+    "prompt": "视觉风格：压迫史诗日漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n史诗电影镜头，戏剧化光影，超宽画幅，IMAX 气势。",
+    "preview": "/creative-presets/style-504.webp"
+  },
+  {
+    "id": "style-503",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "粗粝青年动漫",
+    "description": "粗粝青年动漫画面表现",
+    "prompt": "视觉风格：粗粝青年动漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-503.webp"
+  },
+  {
+    "id": "style-502",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "安静奇幻旅途动画",
+    "description": "安静奇幻旅途动画画面表现",
+    "prompt": "视觉风格：安静奇幻旅途动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-502.webp"
+  },
+  {
+    "id": "style-501",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式黑白恐怖漫画",
+    "description": "日式黑白恐怖漫画画面表现",
+    "prompt": "视觉风格：日式黑白恐怖漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-501.jpg"
+  },
+  {
+    "id": "style-500",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式粗线低细节卡通",
+    "description": "日式粗线低细节卡通画面表现",
+    "prompt": "视觉风格：日式粗线低细节卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-500.webp"
+  },
+  {
+    "id": "style-499",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式圆润儿童漫画",
+    "description": "日式圆润儿童漫画画面表现",
+    "prompt": "视觉风格：日式圆润儿童漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-499.webp"
+  },
+  {
+    "id": "style-498",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "90年代魔法少女动画",
+    "description": "90年代魔法少女动画画面表现",
+    "prompt": "视觉风格：90年代魔法少女动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-498.webp"
+  },
+  {
+    "id": "style-497",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式热血动画",
+    "description": "日式热血动画画面表现",
+    "prompt": "视觉风格：日式热血动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-497.webp"
+  },
+  {
+    "id": "style-496",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "航海冒险少年漫",
+    "description": "航海冒险少年漫画面表现",
+    "prompt": "视觉风格：航海冒险少年漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-496.webp"
+  },
+  {
+    "id": "style-495",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "忍者热血少年漫",
+    "description": "忍者热血少年漫画面表现",
+    "prompt": "视觉风格：忍者热血少年漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-495.webp"
+  },
+  {
+    "id": "style-494",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "时尚灵异少年漫",
+    "description": "时尚灵异少年漫画面表现",
+    "prompt": "视觉风格：时尚灵异少年漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n时装大片电影感，姿态雕塑感，高级杂志布光。",
+    "preview": "/creative-presets/style-494.webp"
+  },
+  {
+    "id": "style-493",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "奇异硬派姿态漫画",
+    "description": "奇异硬派姿态漫画画面表现",
+    "prompt": "视觉风格：奇异硬派姿态漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-493.webp"
+  },
+  {
+    "id": "style-492",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "写实青春运动漫画",
+    "description": "写实青春运动漫画画面表现",
+    "prompt": "视觉风格：写实青春运动漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n青春成长电影氛围，柔软记忆，年轻光线与情感发现。",
+    "preview": "/creative-presets/style-492.webp"
+  },
+  {
+    "id": "style-491",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "80年代日式赛博动画",
+    "description": "80年代日式赛博动画画面表现",
+    "prompt": "视觉风格：80年代日式赛博动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n赛博朋克霓虹城市，雨夜反光，银翼杀手式氛围。",
+    "preview": "/creative-presets/style-491.webp"
+  },
+  {
+    "id": "style-490",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "冷峻赛博哲学动画",
+    "description": "冷峻赛博哲学动画画面表现",
+    "prompt": "视觉风格：冷峻赛博哲学动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n赛博朋克霓虹城市，雨夜反光，银翼杀手式氛围。",
+    "preview": "/creative-presets/style-490.webp"
+  },
+  {
+    "id": "style-489",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式实验变形动画",
+    "description": "日式实验变形动画画面表现",
+    "prompt": "视觉风格：日式实验变形动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-489.webp"
+  },
+  {
+    "id": "style-488",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式心理成人动画",
+    "description": "日式心理成人动画画面表现",
+    "prompt": "视觉风格：日式心理成人动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-488.webp"
+  },
+  {
+    "id": "style-487",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式日常青春动画",
+    "description": "日式日常青春动画画面表现",
+    "prompt": "视觉风格：日式日常青春动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n青春成长电影氛围，柔软记忆，年轻光线与情感发现。",
+    "preview": "/creative-presets/style-487.webp"
+  },
+  {
+    "id": "style-486",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式可爱软萌动画",
+    "description": "日式可爱软萌动画画面表现",
+    "prompt": "视觉风格：日式可爱软萌动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-486.webp"
+  },
+  {
+    "id": "style-485",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式简化表情卡通",
+    "description": "日式简化表情卡通画面表现",
+    "prompt": "视觉风格：日式简化表情卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-485.webp"
+  },
+  {
+    "id": "style-484",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "老上美民族动画",
+    "description": "老上美民族动画画面表现",
+    "prompt": "视觉风格：老上美民族动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-484.webp"
+  },
+  {
+    "id": "style-483",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "中国水墨动画",
+    "description": "中国水墨动画画面表现",
+    "prompt": "视觉风格：中国水墨动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-483.webp"
+  },
+  {
+    "id": "style-482",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "中国剪纸动画",
+    "description": "中国剪纸动画画面表现",
+    "prompt": "视觉风格：中国剪纸动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-482.webp"
+  },
+  {
+    "id": "style-481",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "中国皮影动画",
+    "description": "中国皮影动画画面表现",
+    "prompt": "视觉风格：中国皮影动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-481.webp"
+  },
+  {
+    "id": "style-480",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国风赛璐璐动画",
+    "description": "国风赛璐璐动画画面表现",
+    "prompt": "视觉风格：国风赛璐璐动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-480.webp"
+  },
+  {
+    "id": "style-479",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国风厚涂插画",
+    "description": "国风厚涂插画画面表现",
+    "prompt": "视觉风格：国风厚涂插画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-479.webp"
+  },
+  {
+    "id": "style-478",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "中式民俗怪谈",
+    "description": "中式民俗怪谈画面表现",
+    "prompt": "视觉风格：中式民俗怪谈。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-478.webp"
+  },
+  {
+    "id": "style-477",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "水墨国漫动画",
+    "description": "水墨国漫动画画面表现",
+    "prompt": "视觉风格：水墨国漫动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-477.webp"
+  },
+  {
+    "id": "style-476",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "清新治愈国漫",
+    "description": "清新治愈国漫画面表现",
+    "prompt": "视觉风格：清新治愈国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-476.webp"
+  },
+  {
+    "id": "style-475",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "简化喜剧国漫",
+    "description": "简化喜剧国漫画面表现",
+    "prompt": "视觉风格：简化喜剧国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-475.webp"
+  },
+  {
+    "id": "style-474",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国创实验短片",
+    "description": "国创实验短片画面表现",
+    "prompt": "视觉风格：国创实验短片。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-474.webp"
+  },
+  {
+    "id": "style-473",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "现代都市国漫",
+    "description": "现代都市国漫画面表现",
+    "prompt": "视觉风格：现代都市国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-473.webp"
+  },
+  {
+    "id": "style-472",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "中国古风女频",
+    "description": "中国古风女频画面表现",
+    "prompt": "视觉风格：中国古风女频。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-472.webp"
+  },
+  {
+    "id": "style-471",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国风仙侠女频",
+    "description": "国风仙侠女频画面表现",
+    "prompt": "视觉风格：国风仙侠女频。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-471.webp"
+  },
+  {
+    "id": "style-470",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "都市精致女频",
+    "description": "都市精致女频画面表现",
+    "prompt": "视觉风格：都市精致女频。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-470.webp"
+  },
+  {
+    "id": "style-469",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "甜宠少女风",
+    "description": "甜宠少女风画面表现",
+    "prompt": "视觉风格：甜宠少女风。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-469.webp"
+  },
+  {
+    "id": "style-468",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "韩式精致恋爱动画",
+    "description": "韩式精致恋爱动画画面表现",
+    "prompt": "视觉风格：韩式精致恋爱动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-468.webp"
+  },
+  {
+    "id": "style-467",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "韩漫贵族幻想动画",
+    "description": "韩漫贵族幻想动画画面表现",
+    "prompt": "视觉风格：韩漫贵族幻想动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-467.webp"
+  },
+  {
+    "id": "style-466",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "韩漫热血动作动画",
+    "description": "韩漫热血动作动画画面表现",
+    "prompt": "视觉风格：韩漫热血动作动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-466.webp"
+  },
+  {
+    "id": "style-465",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "韩漫悬疑惊悚动画",
+    "description": "韩漫悬疑惊悚动画画面表现",
+    "prompt": "视觉风格：韩漫悬疑惊悚动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-465.webp"
+  },
+  {
+    "id": "style-464",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式极简温柔卡通",
+    "description": "美式极简温柔卡通画面表现",
+    "prompt": "视觉风格：美式极简温柔卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n极简艺术电影感，安静留白，克制视觉语言。",
+    "preview": "/creative-presets/style-464.webp"
+  },
+  {
+    "id": "style-463",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式怪趣卡通",
+    "description": "美式怪趣卡通画面表现",
+    "prompt": "视觉风格：美式怪趣卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-463.webp"
+  },
+  {
+    "id": "style-462",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "经典美式弹性卡通",
+    "description": "经典美式弹性卡通画面表现",
+    "prompt": "视觉风格：经典美式弹性卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-462.webp"
+  },
+  {
+    "id": "style-461",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式讽刺家庭卡通",
+    "description": "美式讽刺家庭卡通画面表现",
+    "prompt": "视觉风格：美式讽刺家庭卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n家庭剧电影感，亲密室内空间，层次日常情绪。",
+    "preview": "/creative-presets/style-461.webp"
+  },
+  {
+    "id": "style-460",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式粗糙剪纸卡通",
+    "description": "美式粗糙剪纸卡通画面表现",
+    "prompt": "视觉风格：美式粗糙剪纸卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-460.webp"
+  },
+  {
+    "id": "style-459",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式现代怪奇卡通",
+    "description": "美式现代怪奇卡通画面表现",
+    "prompt": "视觉风格：美式现代怪奇卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-459.webp"
+  },
+  {
+    "id": "style-458",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式柔和成长卡通",
+    "description": "美式柔和成长卡通画面表现",
+    "prompt": "视觉风格：美式柔和成长卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-458.webp"
+  },
+  {
+    "id": "style-457",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式黑暗英雄动画",
+    "description": "美式黑暗英雄动画画面表现",
+    "prompt": "视觉风格：美式黑暗英雄动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-457.webp"
+  },
+  {
+    "id": "style-456",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "复古美式漫画",
+    "description": "复古美式漫画画面表现",
+    "prompt": "视觉风格：复古美式漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-456.webp"
+  },
+  {
+    "id": "style-455",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "比利时清线冒险漫画",
+    "description": "比利时清线冒险漫画画面表现",
+    "prompt": "视觉风格：比利时清线冒险漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-455.webp"
+  },
+  {
+    "id": "style-454",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "欧洲童话儿童漫画",
+    "description": "欧洲童话儿童漫画画面表现",
+    "prompt": "视觉风格：欧洲童话儿童漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n童话电影感，魔法柔和，绘本色彩，温柔奇幻感。",
+    "preview": "/creative-presets/style-454.webp"
+  },
+  {
+    "id": "style-453",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "50年代美式现代动画",
+    "description": "50年代美式现代动画画面表现",
+    "prompt": "视觉风格：50年代美式现代动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-453.webp"
+  },
+  {
+    "id": "style-452",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "复古电视卡通",
+    "description": "复古电视卡通画面表现",
+    "prompt": "视觉风格：复古电视卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-452.webp"
+  },
+  {
+    "id": "style-451",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "现代美式电视卡通",
+    "description": "现代美式电视卡通画面表现",
+    "prompt": "视觉风格：现代美式电视卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-451.webp"
+  },
+  {
+    "id": "style-450",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "怪趣儿童频道卡通",
+    "description": "怪趣儿童频道卡通画面表现",
+    "prompt": "视觉风格：怪趣儿童频道卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-450.webp"
+  },
+  {
+    "id": "style-449",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "几何可爱卡通",
+    "description": "几何可爱卡通画面表现",
+    "prompt": "视觉风格：几何可爱卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-449.webp"
+  },
+  {
+    "id": "style-448",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "简笔奇幻卡通",
+    "description": "简笔奇幻卡通画面表现",
+    "prompt": "视觉风格：简笔奇幻卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-448.webp"
+  },
+  {
+    "id": "style-447",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "成人科幻怪趣卡通",
+    "description": "成人科幻怪趣卡通画面表现",
+    "prompt": "视觉风格：成人科幻怪趣卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-447.webp"
+  },
+  {
+    "id": "style-446",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式报纸幽默漫画",
+    "description": "美式报纸幽默漫画画面表现",
+    "prompt": "视觉风格：美式报纸幽默漫画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-446.webp"
+  },
+  {
+    "id": "style-445",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "复古悬疑卡通",
+    "description": "复古悬疑卡通画面表现",
+    "prompt": "视觉风格：复古悬疑卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n悬疑惊悚氛围，紧张构图，不安阴影。",
+    "preview": "/creative-presets/style-445.webp"
+  },
+  {
+    "id": "style-444",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "美式街头动作卡通",
+    "description": "美式街头动作卡通画面表现",
+    "prompt": "视觉风格：美式街头动作卡通。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-444.webp"
+  },
+  {
+    "id": "style-443",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "低龄温暖动画",
+    "description": "低龄温暖动画画面表现",
+    "prompt": "视觉风格：低龄温暖动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-443.webp"
+  },
+  {
+    "id": "style-442",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "精致推理日常动画",
+    "description": "精致推理日常动画画面表现",
+    "prompt": "视觉风格：精致推理日常动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-442.webp"
+  },
+  {
+    "id": "style-441",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "日式妖怪古风动画",
+    "description": "日式妖怪古风动画画面表现",
+    "prompt": "视觉风格：日式妖怪古风动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-441.webp"
+  },
+  {
+    "id": "style-440",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "90年代灵异少年动画",
+    "description": "90年代灵异少年动画画面表现",
+    "prompt": "视觉风格：90年代灵异少年动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-440.webp"
+  },
+  {
+    "id": "style-439",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "明治古风少年动画",
+    "description": "明治古风少年动画画面表现",
+    "prompt": "视觉风格：明治古风少年动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-439.webp"
+  },
+  {
+    "id": "style-438",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "蒸汽奇幻少年漫",
+    "description": "蒸汽奇幻少年漫画面表现",
+    "prompt": "视觉风格：蒸汽奇幻少年漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n蒸汽朋克电影感，黄铜机械，烟雾工业幻想。",
+    "preview": "/creative-presets/style-438.webp"
+  },
+  {
+    "id": "style-437",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "江户科幻喜剧动画",
+    "description": "江户科幻喜剧动画画面表现",
+    "prompt": "视觉风格：江户科幻喜剧动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n高级科幻电影剧照，未来感美术设计，干净宏大的电影尺度。",
+    "preview": "/creative-presets/style-437.webp"
+  },
+  {
+    "id": "style-436",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "青春催泪动画",
+    "description": "青春催泪动画画面表现",
+    "prompt": "视觉风格：青春催泪动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。\n青春成长电影氛围，柔软记忆，年轻光线与情感发现。",
+    "preview": "/creative-presets/style-436.webp"
+  },
+  {
+    "id": "style-435",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "少女日常轻喜剧",
+    "description": "少女日常轻喜剧画面表现",
+    "prompt": "视觉风格：少女日常轻喜剧。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-435.webp"
+  },
+  {
+    "id": "style-434",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "强视觉实验日漫",
+    "description": "强视觉实验日漫画面表现",
+    "prompt": "视觉风格：强视觉实验日漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-434.webp"
+  },
+  {
+    "id": "style-433",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "高冷晶体幻想动画",
+    "description": "高冷晶体幻想动画画面表现",
+    "prompt": "视觉风格：高冷晶体幻想动画。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-433.webp"
+  },
+  {
+    "id": "style-432",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "唐风轻喜剧国漫",
+    "description": "唐风轻喜剧国漫画面表现",
+    "prompt": "视觉风格：唐风轻喜剧国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-432.webp"
+  },
+  {
+    "id": "style-431",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "都市异能国漫",
+    "description": "都市异能国漫画面表现",
+    "prompt": "视觉风格：都市异能国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-431.webp"
+  },
+  {
+    "id": "style-430",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "清甜东方恋爱国漫",
+    "description": "清甜东方恋爱国漫画面表现",
+    "prompt": "视觉风格：清甜东方恋爱国漫。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-430.webp"
+  },
+  {
+    "id": "style-429",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "国漫夸张日常喜剧",
+    "description": "国漫夸张日常喜剧画面表现",
+    "prompt": "视觉风格：国漫夸张日常喜剧。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-429.webp"
+  },
+  {
+    "id": "style-428",
+    "kind": "style",
+    "category": "2D风格",
+    "name": "都市女性成长",
+    "description": "都市女性成长画面表现",
+    "prompt": "视觉风格：都市女性成长。统一二维美术语言，协调线条、色块、阴影和背景层次。不改变用户指定的主体与构图。",
+    "preview": "/creative-presets/style-428.webp"
+  },
+  {
+    "id": "style-427",
+    "kind": "style",
+    "category": "真人风格",
+    "name": "史诗电影",
+    "description": "史诗电影画面表现",
+    "prompt": "视觉风格：史诗电影。真实人物与材质，清晰的主次光线，统一画面色彩与影像质感。不改变用户指定的主体与构图。\n史诗电影镜头，戏剧化光影，超宽画幅，IMAX 气势。",
+    "preview": "/creative-presets/style-427.webp"
+  },
+  {
+    "id": "motion-694",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "固定机位",
+    "description": "固定镜头，稳定看清主体",
+    "prompt": "运镜要求：固定镜头，稳定看清主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n固定机位，无镜头运动。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-694.mp4",
+    "poster": "/creative-presets/motion-694.jpg"
+  },
+  {
+    "id": "motion-693",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "跟随镜头",
+    "description": "镜头稳定跟住主体",
+    "prompt": "运镜要求：镜头稳定跟住主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n跟拍主体移动，保持连续跟随。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-693.mp4",
+    "poster": "/creative-presets/motion-693.jpg"
+  },
+  {
+    "id": "motion-692",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "环绕上升",
+    "description": "环绕主体并逐渐升高",
+    "prompt": "运镜要求：环绕主体并逐渐升高。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n围绕主体环绕，运动轨迹清晰。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-692.mp4",
+    "poster": "/creative-presets/motion-692.jpg"
+  },
+  {
+    "id": "motion-691",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "环绕下降",
+    "description": "环绕主体并逐渐降低",
+    "prompt": "运镜要求：环绕主体并逐渐降低。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n围绕主体环绕，运动轨迹清晰。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-691.mp4",
+    "poster": "/creative-presets/motion-691.jpg"
+  },
+  {
+    "id": "motion-690",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "向上摇镜",
+    "description": "镜头原地向上转动",
+    "prompt": "运镜要求：镜头原地向上转动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头平滑上摇，揭示高度和尺度。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-690.mp4",
+    "poster": "/creative-presets/motion-690.jpg"
+  },
+  {
+    "id": "motion-689",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "向下摇镜",
+    "description": "镜头原地向下转动",
+    "prompt": "运镜要求：镜头原地向下转动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头平滑下摇，从上方揭示主体。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-689.mp4",
+    "poster": "/creative-presets/motion-689.jpg"
+  },
+  {
+    "id": "motion-688",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "向左摇镜",
+    "description": "镜头原地向左扫过",
+    "prompt": "运镜要求：镜头原地向左扫过。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头平滑向左摇动。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-688.mp4",
+    "poster": "/creative-presets/motion-688.jpg"
+  },
+  {
+    "id": "motion-687",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "向右摇镜",
+    "description": "镜头原地向右扫过",
+    "prompt": "运镜要求：镜头原地向右扫过。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头平滑向右摇动。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-687.mp4",
+    "poster": "/creative-presets/motion-687.jpg"
+  },
+  {
+    "id": "motion-672",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "英雄登场",
+    "description": "镜头推近人物，突出出场气场",
+    "prompt": "运镜要求：镜头推近人物，突出出场气场。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢向主体推进。保留原构图和主体动作，不增加切镜。",
+    "preview": "/creative-presets/motion-672.mp4",
+    "poster": "/creative-presets/motion-672.jpg"
+  },
+  {
+    "id": "motion-686",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "跟随推进",
+    "description": "一边跟随主体，一边靠近",
+    "prompt": "运镜要求：一边跟随主体，一边靠近。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n跟拍主体移动，保持连续跟随。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-686.mp4",
+    "poster": "/creative-presets/motion-686.jpg"
+  },
+  {
+    "id": "motion-671",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "危机逼近",
+    "description": "镜头压向主体，制造危险感",
+    "prompt": "运镜要求：镜头压向主体，制造危险感。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢向主体推进。保留原构图和主体动作，不增加切镜。",
+    "preview": "/creative-presets/motion-671.mp4",
+    "poster": "/creative-presets/motion-671.jpg"
+  },
+  {
+    "id": "motion-657",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头升高",
+    "description": "机位垂直上升",
+    "prompt": "运镜要求：机位垂直上升。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n垂直上升运镜，直线上升并保持构图干净。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-657.mp4",
+    "poster": "/creative-presets/motion-657.jpg"
+  },
+  {
+    "id": "motion-685",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "左侧跟随",
+    "description": "从左侧伴随主体移动",
+    "prompt": "运镜要求：从左侧伴随主体移动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n侧向跟拍，与主体并行同速移动。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-685.mp4",
+    "poster": "/creative-presets/motion-685.jpg"
+  },
+  {
+    "id": "motion-670",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "大场面开场",
+    "description": "展示地点、规模和环境氛围",
+    "prompt": "运镜要求：展示地点、规模和环境氛围。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n以宽阔构图交代地理关系和场面规模，不额外指定航拍或改变场景。",
+    "preview": "/creative-presets/motion-670.mp4",
+    "poster": "/creative-presets/motion-670.jpg"
+  },
+  {
+    "id": "motion-656",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头降低",
+    "description": "机位垂直下降",
+    "prompt": "运镜要求：机位垂直下降。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n垂直下降运镜，直线下降并保持构图可控。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-656.mp4",
+    "poster": "/creative-presets/motion-656.jpg"
+  },
+  {
+    "id": "motion-684",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "右侧跟随",
+    "description": "从右侧伴随主体移动",
+    "prompt": "运镜要求：从右侧伴随主体移动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n侧向跟拍，与主体并行同速移动。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-684.mp4",
+    "poster": "/creative-presets/motion-684.jpg"
+  },
+  {
+    "id": "motion-669",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "情绪围绕",
+    "description": "围绕人物，强化心理状态",
+    "prompt": "运镜要求：围绕人物，强化心理状态。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n围绕主体环绕，运动轨迹清晰。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-669.mp4",
+    "poster": "/creative-presets/motion-669.jpg"
+  },
+  {
+    "id": "motion-655",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头左移",
+    "description": "机位向左横移",
+    "prompt": "运镜要求：机位向左横移。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n侧向跟拍，与主体并行同速移动。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-655.mp4",
+    "poster": "/creative-presets/motion-655.jpg"
+  },
+  {
+    "id": "motion-683",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "推进升高",
+    "description": "推进同时升高",
+    "prompt": "运镜要求：推进同时升高。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n摇臂上升运镜，从主体优雅上升到环境。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-683.mp4",
+    "poster": "/creative-presets/motion-683.jpg"
+  },
+  {
+    "id": "motion-668",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "亲密对话",
+    "description": "过肩构图，表现交流关系",
+    "prompt": "运镜要求：过肩构图，表现交流关系。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n保持过肩构图与对话视线关系，让前景肩部和对方表情建立空间层次。",
+    "preview": "/creative-presets/motion-668.mp4",
+    "poster": "/creative-presets/motion-668.jpg"
+  },
+  {
+    "id": "motion-654",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头右移",
+    "description": "机位向右横移",
+    "prompt": "运镜要求：机位向右横移。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n侧向跟拍，与主体并行同速移动。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-654.mp4",
+    "poster": "/creative-presets/motion-654.jpg"
+  },
+  {
+    "id": "motion-682",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "后撤升高",
+    "description": "后撤并升高，建立大场景",
+    "prompt": "运镜要求：后撤并升高，建立大场景。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n摇臂上升运镜，从主体优雅上升到环境。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-682.mp4",
+    "poster": "/creative-presets/motion-682.jpg"
+  },
+  {
+    "id": "motion-667",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "上帝俯瞰",
+    "description": "高处俯视，展示全局关系",
+    "prompt": "运镜要求：高处俯视，展示全局关系。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n航拍镜头，带有电影化空间尺度。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-667.mp4",
+    "poster": "/creative-presets/motion-667.jpg"
+  },
+  {
+    "id": "motion-653",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头推进",
+    "description": "机位向前靠近主体",
+    "prompt": "运镜要求：机位向前靠近主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢向主体推进。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-653.mp4",
+    "poster": "/creative-presets/motion-653.jpg"
+  },
+  {
+    "id": "motion-681",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "环绕推进",
+    "description": "环绕主体并逐步靠近",
+    "prompt": "运镜要求：环绕主体并逐步靠近。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n向内螺旋推进，环绕靠近主体。保留原构图和主体动作，不增加切镜。",
+    "preview": "/creative-presets/motion-681.mp4",
+    "poster": "/creative-presets/motion-681.jpg"
+  },
+  {
+    "id": "motion-666",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "悬疑失衡",
+    "description": "倾斜手持，制造不安",
+    "prompt": "运镜要求：倾斜手持，制造不安。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n荷兰倾斜运镜，倾斜地平线带来不安戏剧感。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-666.mp4",
+    "poster": "/creative-presets/motion-666.jpg"
+  },
+  {
+    "id": "motion-652",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "镜头后撤",
+    "description": "机位向后退开",
+    "prompt": "运镜要求：机位向后退开。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢拉远，展示更多场景。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-652.mp4",
+    "poster": "/creative-presets/motion-652.jpg"
+  },
+  {
+    "id": "motion-680",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "顶拍下降",
+    "description": "从正上方下降",
+    "prompt": "运镜要求：从正上方下降。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n俯冲下降运镜，从上方向主体俯冲。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-680.mp4",
+    "poster": "/creative-presets/motion-680.jpg"
+  },
+  {
+    "id": "motion-665",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "子弹时间",
+    "description": "环绕凝固瞬间，制造时间暂停感",
+    "prompt": "运镜要求：环绕凝固瞬间，制造时间暂停感。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n子弹时间灵感运镜，冻结动作并形成环绕能量。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-665.mp4",
+    "poster": "/creative-presets/motion-665.jpg"
+  },
+  {
+    "id": "motion-651",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "变焦推进",
+    "description": "焦距推近，画面放大",
+    "prompt": "运镜要求：焦距推近，画面放大。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n保持机位位置，连续改变镜头焦距使主体放大，不做机位前移或突然跳变。",
+    "preview": "/creative-presets/motion-651.mp4",
+    "poster": "/creative-presets/motion-651.jpg"
+  },
+  {
+    "id": "motion-679",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "过肩推进",
+    "description": "过肩视角中逐渐靠近对方",
+    "prompt": "运镜要求：过肩视角中逐渐靠近对方。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n肩后跟随运镜，贴近主体背后移动。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-679.mp4",
+    "poster": "/creative-presets/motion-679.jpg"
+  },
+  {
+    "id": "motion-664",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "秘密窥视",
+    "description": "从遮挡或远处观察主体",
+    "prompt": "运镜要求：从遮挡或远处观察主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n保持前景遮挡及观察距离，缓慢显露主体，不改成直面主体的公开视角。",
+    "preview": "/creative-presets/motion-664.mp4",
+    "poster": "/creative-presets/motion-664.jpg"
+  },
+  {
+    "id": "motion-650",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "变焦拉远",
+    "description": "焦距拉远，画面变广",
+    "prompt": "运镜要求：焦距拉远，画面变广。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n保持机位位置，连续缩短焦距扩大视野，不做机位后撤或反向变焦。",
+    "preview": "/creative-presets/motion-650.mp4",
+    "poster": "/creative-presets/motion-650.jpg"
+  },
+  {
+    "id": "motion-715",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "环绕镜头",
+    "description": "围绕主体拍摄",
+    "prompt": "运镜要求：围绕主体拍摄。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n围绕主体环绕，运动轨迹清晰。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-715.mp4",
+    "poster": "/creative-presets/motion-715.jpg"
+  },
+  {
+    "id": "motion-678",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "车载跟随",
+    "description": "像车载摄影一样跟住目标",
+    "prompt": "运镜要求：像车载摄影一样跟住目标。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n跟拍主体移动，保持连续跟随。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-678.mp4",
+    "poster": "/creative-presets/motion-678.jpg"
+  },
+  {
+    "id": "motion-663",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "关键揭示",
+    "description": "镜头移动后露出重要信息",
+    "prompt": "运镜要求：镜头移动后露出重要信息。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n倾斜揭示运镜，旋转或倾斜进入关键主体。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-663.mp4",
+    "poster": "/creative-presets/motion-663.jpg"
+  },
+  {
+    "id": "motion-677",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "手持逼近",
+    "description": "手持视角靠近，带自然晃动",
+    "prompt": "运镜要求：手持视角靠近，带自然晃动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n轻微手持镜头，有生命感但可控。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-677.mp4",
+    "poster": "/creative-presets/motion-677.jpg"
+  },
+  {
+    "id": "motion-662",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "对峙时刻",
+    "description": "双人同框对峙，缓慢推进",
+    "prompt": "运镜要求：双人同框对峙，缓慢推进。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢向主体推进。保留原构图和主体动作，不增加切镜。",
+    "preview": "/creative-presets/motion-662.mp4",
+    "poster": "/creative-presets/motion-662.jpg"
+  },
+  {
+    "id": "motion-649",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "第一视角",
+    "description": "主观视角进入画面",
+    "prompt": "运镜要求：主观视角进入画面。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n主观视角移动，沉浸式第一人称运镜。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-649.mp4",
+    "poster": "/creative-presets/motion-649.jpg"
+  },
+  {
+    "id": "motion-676",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "前景掠过",
+    "description": "镜头穿过前景后露出主体",
+    "prompt": "运镜要求：镜头穿过前景后露出主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n掠过运镜，贴近主体后继续越过。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-676.mp4",
+    "poster": "/creative-presets/motion-676.jpg"
+  },
+  {
+    "id": "motion-661",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "动作追逐",
+    "description": "跟随快速移动主体，保持速度感",
+    "prompt": "运镜要求：跟随快速移动主体，保持速度感。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n追逐镜头，跟随快速动作并带紧迫动势。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-661.mp4",
+    "poster": "/creative-presets/motion-661.jpg"
+  },
+  {
+    "id": "motion-648",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "无人机镜头",
+    "description": "平稳空中拍摄",
+    "prompt": "运镜要求：平稳空中拍摄。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n航拍镜头，带有电影化空间尺度。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-648.mp4",
+    "poster": "/creative-presets/motion-648.jpg"
+  },
+  {
+    "id": "motion-675",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "长焦跟随",
+    "description": "压缩空间并跟住主体",
+    "prompt": "运镜要求：压缩空间并跟住主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n跟拍主体移动，保持连续跟随。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-675.mp4",
+    "poster": "/creative-presets/motion-675.jpg"
+  },
+  {
+    "id": "motion-660",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "梦幻环绕",
+    "description": "柔和漂浮环绕，浅景深光晕",
+    "prompt": "运镜要求：柔和漂浮环绕，浅景深光晕。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n围绕主体环绕，运动轨迹清晰。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-660.mp4",
+    "poster": "/creative-presets/motion-660.jpg"
+  },
+  {
+    "id": "motion-647",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "高空航拍",
+    "description": "高处俯瞰大场景",
+    "prompt": "运镜要求：高处俯瞰大场景。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n航拍镜头，带有电影化空间尺度。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-647.mp4",
+    "poster": "/creative-presets/motion-647.jpg"
+  },
+  {
+    "id": "motion-674",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "焦点转移",
+    "description": "从前景或背景转焦到主体",
+    "prompt": "运镜要求：从前景或背景转焦到主体。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n保持机位和构图稳定，以焦平面在指定前后景主体之间平滑转移表现注意力变化；不要把移焦改成推拉镜头。",
+    "preview": "/creative-presets/motion-674.mp4",
+    "poster": "/creative-presets/motion-674.jpg"
+  },
+  {
+    "id": "motion-659",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "希区柯克变焦",
+    "description": "主体尺寸不变，背景向外拉开",
+    "prompt": "运镜要求：主体尺寸不变，背景向外拉开。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n推拉运镜，在主体周围形成滑轨与变焦张力。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-659.mp4",
+    "poster": "/creative-presets/motion-659.jpg"
+  },
+  {
+    "id": "motion-646",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "手持镜头",
+    "description": "轻微手持晃动",
+    "prompt": "运镜要求：轻微手持晃动。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n轻微手持镜头，有生命感但可控。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-646.mp4",
+    "poster": "/creative-presets/motion-646.jpg"
+  },
+  {
+    "id": "motion-673",
+    "kind": "motion",
+    "category": "组合运镜",
+    "name": "低角推进",
+    "description": "从低处看主体并轻微推进",
+    "prompt": "运镜要求：从低处看主体并轻微推进。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头缓慢向主体推进。保留原构图和主体动作，不增加切镜。",
+    "preview": "/creative-presets/motion-673.mp4",
+    "poster": "/creative-presets/motion-673.jpg"
+  },
+  {
+    "id": "motion-658",
+    "kind": "motion",
+    "category": "高阶运镜",
+    "name": "画面翻滚",
+    "description": "画面沿镜头光轴旋转",
+    "prompt": "运镜要求：画面沿镜头光轴旋转。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n镜头向右可控滚转，增加风格化张力。保持原运镜的方向与先后顺序，不增加切镜；保留主体动作要求。",
+    "preview": "/creative-presets/motion-658.mp4",
+    "poster": "/creative-presets/motion-658.jpg"
+  },
+  {
+    "id": "motion-645",
+    "kind": "motion",
+    "category": "基础运镜",
+    "name": "穿越机镜头",
+    "description": "FPV 快速穿越空间",
+    "prompt": "运镜要求：FPV 快速穿越空间。镜头运动连续、轨迹清晰，保持主体身份和空间关系一致。\n穿越推进，穿过前景层次靠近主体。保留原动作方向与主体动作要求，不增加切镜。",
+    "preview": "/creative-presets/motion-645.mp4",
+    "poster": "/creative-presets/motion-645.jpg"
+  },
+  {
+    "id": "filter-714",
+    "kind": "filter",
+    "category": "通用",
+    "name": "柯达",
+    "description": "柔和肤色，低对比人像胶片",
+    "prompt": "影像处理：柔和肤色，低对比人像胶片。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-714.png"
+  },
+  {
+    "id": "filter-713",
+    "kind": "filter",
+    "category": "通用",
+    "name": "富士",
+    "description": "高饱和，风景色彩更饱满",
+    "prompt": "影像处理：高饱和，风景色彩更饱满。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-713.png"
+  },
+  {
+    "id": "filter-712",
+    "kind": "filter",
+    "category": "通用",
+    "name": "伊尔福",
+    "description": "黑白纪实，颗粒更明显",
+    "prompt": "影像处理：黑白纪实，颗粒更明显。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-712.png"
+  },
+  {
+    "id": "filter-711",
+    "kind": "filter",
+    "category": "通用",
+    "name": "电影胶片",
+    "description": "35mm 电影感，宽容度高",
+    "prompt": "影像处理：35mm 电影感，宽容度高。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-711.png"
+  },
+  {
+    "id": "filter-710",
+    "kind": "filter",
+    "category": "通用",
+    "name": "宝丽来",
+    "description": "即时成像，复古暖调",
+    "prompt": "影像处理：即时成像，复古暖调。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-710.png"
+  },
+  {
+    "id": "filter-709",
+    "kind": "filter",
+    "category": "通用",
+    "name": "电影光效",
+    "description": "动机光源，层次分明",
+    "prompt": "影像处理：动机光源，层次分明。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-709.png"
+  },
+  {
+    "id": "filter-708",
+    "kind": "filter",
+    "category": "通用",
+    "name": "HDR",
+    "description": "高动态范围，明暗细节保留",
+    "prompt": "影像处理：高动态范围，明暗细节保留。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-708.png"
+  },
+  {
+    "id": "filter-707",
+    "kind": "filter",
+    "category": "通用",
+    "name": "柔焦效果",
+    "description": "柔和扩散，梦幻氛围",
+    "prompt": "影像处理：柔和扩散，梦幻氛围。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-707.png"
+  },
+  {
+    "id": "filter-706",
+    "kind": "filter",
+    "category": "通用",
+    "name": "胶片颗粒",
+    "description": "模拟银盐颗粒，胶片质感",
+    "prompt": "影像处理：模拟银盐颗粒，胶片质感。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-706.png"
+  },
+  {
+    "id": "filter-705",
+    "kind": "filter",
+    "category": "通用",
+    "name": "赛博朋克",
+    "description": "霓虹夜景，未来感更强",
+    "prompt": "影像处理：霓虹夜景，未来感更强。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-705.png"
+  },
+  {
+    "id": "filter-704",
+    "kind": "filter",
+    "category": "通用",
+    "name": "复古色调",
+    "description": "暖褪色调，怀旧电影感",
+    "prompt": "影像处理：暖褪色调，怀旧电影感。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-704.png"
+  },
+  {
+    "id": "filter-855",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "清透美颜",
+    "description": "清透美颜画面表现",
+    "prompt": "影像处理：清透美颜。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-855.png"
+  },
+  {
+    "id": "filter-854",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "柔肤美颜",
+    "description": "柔肤美颜画面表现",
+    "prompt": "影像处理：柔肤美颜。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-854.png"
+  },
+  {
+    "id": "filter-853",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "细腻肌理",
+    "description": "细腻肌理画面表现",
+    "prompt": "影像处理：细腻肌理。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-853.png"
+  },
+  {
+    "id": "filter-852",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "奶油肌",
+    "description": "奶油肌画面表现",
+    "prompt": "影像处理：奶油肌。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-852.png"
+  },
+  {
+    "id": "filter-851",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "柔化质感",
+    "description": "柔化质感画面表现",
+    "prompt": "影像处理：柔化质感。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-851.png"
+  },
+  {
+    "id": "filter-850",
+    "kind": "filter",
+    "category": "人像质感",
+    "name": "哑光肌理",
+    "description": "哑光肌理画面表现",
+    "prompt": "影像处理：哑光肌理。保留主体结构与画面内容。",
+    "preview": "/creative-presets/filter-850.png"
+  }
+]

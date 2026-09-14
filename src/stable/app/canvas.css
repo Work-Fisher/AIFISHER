@@ -1,0 +1,146 @@
+@import 'tailwindcss' source(none);
+@source "../";
+@source not "../**/*.test.*";
+
+html,
+body,
+#root {
+  overscroll-behavior: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  color: var(--af-text);
+  background-color: var(--af-canvas, #050505);
+}
+
+.text-node-typography p,
+.tiptap-editor p,
+.ProseMirror p {
+  letter-spacing: 0.01em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+.tiptap-editor,
+.ProseMirror {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  width: 100% !important;
+}
+.text-node-content .ProseMirror,
+.prompt-editor-container .ProseMirror {
+  min-height: 22.4px !important;
+}
+.prompt-editor-container {
+  max-height: 89.6px !important;
+  overflow-y: hidden !important;
+}
+.prompt-editor-container.is-prompt-editing {
+  overflow-y: auto !important;
+}
+.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--af-text-muted);
+  pointer-events: none;
+  height: 0;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--af-scrollbar) transparent;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--af-scrollbar);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--af-text-secondary);
+}
+.scrollbar-auto-hide {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+.scrollbar-auto-hide::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.scrollbar-auto-hide::-webkit-scrollbar-thumb,
+.scrollbar-auto-hide::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-auto-hide.scrollbar-visible,
+.scrollbar-visible {
+  scrollbar-width: thin;
+  scrollbar-color: var(--af-scrollbar) transparent;
+}
+.scrollbar-auto-hide.scrollbar-visible::-webkit-scrollbar-thumb,
+.scrollbar-visible::-webkit-scrollbar-thumb {
+  background: var(--af-scrollbar);
+}
+.scrollbar-auto-hide.scrollbar-visible::-webkit-scrollbar-thumb:hover {
+  background: var(--af-text-secondary);
+}
+.scrollbar-visible::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.scrollbar-external-rail {
+  box-sizing: border-box;
+  margin-right: -10px;
+  padding-right: 10px;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Canvas chrome shares one row with native window controls in the new desktop shell. */
+html[data-af-integrated-titlebar] .af-canvas-header,
+html[data-af-integrated-titlebar] [data-fisherai-project-dashboard] > div:first-child {
+  width: 100% !important;
+  padding-right: 148px !important;
+  -webkit-app-region: drag;
+  pointer-events: auto;
+}
+html[data-af-integrated-titlebar] .af-canvas-header > div { -webkit-app-region: no-drag; }
+html[data-af-integrated-titlebar] :is(.af-canvas-header, [data-fisherai-project-dashboard] > div:first-child) :is(button, a, input, select, [role=button], [contenteditable], [role=menu]) {
+  -webkit-app-region: no-drag;
+}
+html[data-af-integrated-titlebar] [data-fisherai-agent-panel] {
+  top: 36px;
+  height: calc(100% - 36px);
+}
+
+html[data-af-integrated-titlebar] .af-canvas-header {
+  height: 36px;
+  padding-left: 12px;
+}
+html[data-af-integrated-titlebar] .af-canvas-header > div { gap: 6px; }
+html[data-af-integrated-titlebar] .af-canvas-header [aria-label="项目菜单"] img { width: 22px; height: 22px; }
+html[data-af-integrated-titlebar] .af-canvas-header > div:first-child { font-size: 13px; }
+
+html[data-af-integrated-titlebar] .af-canvas-header > div:last-child > div > button {
+  padding: 3px 7px !important;
+  min-height: 24px;
+  font-size: 11px !important;
+}
+html[data-af-integrated-titlebar] .af-canvas-header [data-fisherai-comfyui-log-toggle] {
+  gap: 5px !important;
+  padding: 3px 8px !important;
+  font-size: 11px !important;
+}

@@ -1,0 +1,36 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "version": 0.4,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "TextInput",
+      "pos": [10, 20],
+      "size": [200, 100],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [{ "name": "TEXT", "type": "STRING", "links": [1] }],
+      "properties": { "future": true },
+      "widgets_values": ["一条测试提示词"]
+    },
+    {
+      "id": 2,
+      "type": "TextOutput",
+      "pos": [300, 20],
+      "size": [200, 100],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [{ "name": "text", "type": "STRING", "link": 1 }],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": []
+    }
+  ],
+  "links": [[1, 1, 0, 2, 0, "STRING"]],
+  "groups": [{ "title": "User Inputs", "bounding": [0, 0, 240, 160] }],
+  "futureTopLevel": { "preserved": true }
+}

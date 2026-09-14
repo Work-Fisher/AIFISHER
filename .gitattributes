@@ -1,0 +1,24 @@
+.gitattributes text eol=lf
+
+# Generated assets are reproducible LF files even when Windows core.autocrlf is enabled.
+# Bundled shader/template strings retain meaningful upstream whitespace.
+dist/assets/*.js text eol=lf -whitespace
+dist/enhancements/*.js text eol=lf
+server/config/modelCatalog.generated.json text eol=lf
+
+# Published agreement digests are computed from raw bytes, so Windows checkouts must preserve LF.
+services/identity/agreements/**/*.md text eol=lf
+
+# Applied database migrations are hashed as raw bytes; preserve their published LF form.
+services/identity/migrations/*.sql text eol=lf
+# 0014 was first applied from a Windows archive; its immutable production checksum uses CRLF.
+services/identity/migrations/0014_device_identity.sql text eol=crlf
+
+# Runtime provenance hashes cover raw text bytes, so every platform must preserve LF.
+third_party/runtime/**/*.txt text eol=lf
+third_party/runtime/**/*.json text eol=lf
+third_party/runtime/**/*.sha256 text eol=lf
+third_party/runtime/**/COPYING.* text eol=lf
+
+# The official Node.js Windows archive ships LICENSE.txt with CRLF bytes.
+third_party/runtime/node-v*/LICENSE.txt text eol=crlf

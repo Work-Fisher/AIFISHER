@@ -1,0 +1,30 @@
+AIFISHER Noncommercial Source License 1.0
+Copyright (c) 2026 Work-Fisher and contributing copyright holders.
+
+1. Scope and acceptance
+This license applies only to original software and documentation for which the copyright holders have authority to grant these terms (the Software). By exercising rights granted by this license, you accept its conditions. Third-party materials identified by their own licenses are excluded and remain governed by those licenses. No rights in excluded proprietary SKILLs, private templates, datasets or services are granted.
+
+2. Noncommercial grant
+Subject to these conditions, the copyright holders grant a worldwide, non-exclusive, royalty-free license to use, reproduce, inspect, modify and redistribute the Software solely for noncommercial purposes, such as personal learning, research and experimentation without anticipated commercial application. Redistribution must be free of charge and retain this license, copyright notices, third-party notices and a clear description of modifications. Recipients receive the same noncommercial grant directly from the copyright holders. You may not remove or defeat these conditions by relicensing the original Software.
+
+3. Commercial uses prohibited
+No permission is granted to use the Software, directly or through a modified, integrated, automated or hosted version, for commercial advantage or monetary or other compensation. Prohibited purposes include, without limitation:
+(a) accepting paid commissions, client orders or freelance work using the Software;
+(b) producing, processing or delivering images, videos, audio, text or other work as part of a paid project, commercial product or service;
+(c) selling, renting, licensing for payment, repackaging for sale or otherwise monetizing the Software or access to it;
+(d) commercial derivative products, integrations, internal business production, paid hosting, managed services, subscriptions or commercial SaaS based on the Software.
+Making a modified version available free of charge does not authorize its commercial use. Different permissions require a separate written agreement from a copyright holder authorized to grant them. This license itself grants no commercial-use exception to organizations or individuals.
+
+4. Outputs and external rights
+This license does not transfer ownership of your inputs or outputs to the copyright holders. It restricts use of the Software for the prohibited purposes above; it does not warrant that any output is free of third-party rights. You must independently comply with the applicable rights in inputs, outputs, models and external services. Third-party license grants are not revoked or narrowed by this license.
+
+5. Attribution, trademarks and service access
+You may identify the origin of the Software truthfully. No right to imply official endorsement or to use the authors' names or marks for your own branding is granted. No account, API Key, paid model entitlement, production service access or support obligation is provided by this license.
+
+6. Termination and reserved rights
+Permissions under this license terminate upon violation. You must cease exercising them unless the relevant copyright holders reinstate them in writing. Rights that cannot lawfully be restricted, and permissions separately granted under applicable third-party licenses, are unaffected. All rights not expressly granted are reserved.
+
+7. No warranty or liability
+To the maximum extent permitted by applicable law, the Software is provided AS IS, without express or implied warranties, including merchantability, fitness for a particular purpose and non-infringement. No copyright holder or contributor is liable for claims or damages arising from the Software or its use, whether in contract, tort or otherwise.
+
+This is a source-available license with noncommercial restrictions, not an OSI-approved open-source license. The English text above is the operative license; explanatory translations do not expand its grant.

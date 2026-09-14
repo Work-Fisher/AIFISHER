@@ -1,0 +1,7 @@
+interface:
+  display_name: "MiniMax 文戏资产与提示词"
+  short_description: "上传剧本后默认生成资产提示词，再进行剧情拆分与MiniMax文戏提示词"
+  default_prompt: "使用 $minimax-drama-prompt 处理我上传的剧本，从入口菜单开始；资产分支默认只输出提示词。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 320" role="img" aria-labelledby="title">
+  <title id="title">AIFISHER</title>
+  <g fill="#111111" transform="translate(42 40.015) scale(.285)">
+    <path d="M0 0H584C570 110 515 190 438 223C390 244 342 247 292 244C179 242 80 286 0 368Z" />
+    <path d="M0 368C86 462 188 520 303 503C348 496 389 480 414 459V535C385 540 358 551 336 571L24 842H0Z" />
+    <circle cx="328" cy="348" r="25" />
+    <path d="M408 321L488 368L408 416Z" />
+  </g>
+  <text x="252" y="205" fill="#111111" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="112" font-weight="700" letter-spacing="5">AIFISHER</text>
+</svg>

@@ -1,0 +1,128 @@
+kling-v3-omni
+
+文生视频
+curl --location 'https://api-beijing.klingai.com/v1/videos/omni-video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data '{
+  "model_name": "kling-v3-omni",
+  "prompt": "视频中的人跳舞",
+  "mode": "pro",
+  "sound": "on",
+  "duration": "5",
+  "aspect_ratio": "16:9",
+  "watermark_info": "false"
+}'
+
+
+图生视频
+curl --request POST \
+  --url https://api-beijing.klingai.com/v1/videos/omni-video \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "model_name": "kling-v3-omni",
+  "prompt": "让<<<image_1>>>中的人物向镜头挥手",
+  "image_list": [
+    {
+      "image_url": "data:image/jpeg;base64,{base64_data}"
+    }
+  ],
+  "mode": "pro",
+  "sound": "on",
+  "duration": "5",
+  "aspect_ratio": "16:9",
+  "watermark_info": "false"
+}'
+
+
+视频编辑
+curl --location 'https://api-beijing.klingai.com/v1/videos/omni-video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data '{
+    "model_name": "kling-video-o1",
+    "prompt": "给<<<video_1>>>中的穿蓝衣服的女孩，戴上<<<image_1>>>中的王冠",
+    "image_list": [
+      {
+        "image_url": "data:image/jpeg;base64,{base64_data}"
+      }
+    ],
+    "video_list": [
+      {
+        "video_url":"xxxxxxxx",
+        "refer_type":"base",
+        "keep_original_sound":"yes"
+      }
+    ],
+  "mode": "pro",
+  "sound": "on",
+  "duration": "5",
+  "aspect_ratio": "16:9",
+  "watermark_info": "false"
+}'
+
+
+视频参考
+curl --location 'https://api-beijing.klingai.com/v1/videos/omni-video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data '{
+    "model_name": "kling-video-o1",
+    "prompt": "参考<<<video_1>>>的运镜方式，生成一段视频：在东京街头漫步，偶遇<<<image_1>>>",
+    "image_list": [
+      {
+        "image_url": "data:image/jpeg;base64,{base64_data}"
+      }
+    ],
+    "video_list": [
+      {
+        "video_url":"xxxxxxxx",
+        "refer_type":"feature",
+        "keep_original_sound":"yes"
+      }
+    ],
+  "mode": "pro",
+  "sound": "on",
+  "duration": "5",
+  "aspect_ratio": "16:9",
+  "watermark_info": "false"
+}'
+
+
+首尾帧生视频
+curl --location 'https://api-beijing.klingai.com/v1/videos/omni-video' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+--data '{
+    "model_name": "kling-video-o1",
+    "prompt": "视频中的人跳舞",
+    "image_list": [
+      {
+        "image_url": "xxx",
+        "type": "first_frame"
+      },
+      {
+        "image_url": "xxx",
+        "type": "end_frame"
+      }
+    ],
+    "mode": "pro"
+}'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
